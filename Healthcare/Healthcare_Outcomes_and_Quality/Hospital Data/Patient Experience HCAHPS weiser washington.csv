@@ -1,0 +1,12 @@
+Hospital Name,Hospital CCN,Domain,Subdomain,Measure ID,Measure Name,Hospital Value,Comparison Group Value,Comparison Group Geography,Comparison Group Type,Comparison Group Size,Number of Peers in Comparison Group
+WEISER MEMORIAL HOSPITAL,131307,Patient Experience,HCAHPS,H_CLEAN_STAR_RATING,Cleanliness - star rating,3,3.02,Nation,All,All,3493
+WEISER MEMORIAL HOSPITAL,131307,Patient Experience,HCAHPS,H_COMP_1_STAR_RATING,Nurse communication - star rating,4,3.46,Nation,All,All,3493
+WEISER MEMORIAL HOSPITAL,131307,Patient Experience,HCAHPS,H_COMP_2_STAR_RATING,Doctor communication - star rating,3,3.08,Nation,All,All,3493
+WEISER MEMORIAL HOSPITAL,131307,Patient Experience,HCAHPS,H_COMP_3_STAR_RATING,Staff responsiveness - star rating,4,3.32,Nation,All,All,3493
+WEISER MEMORIAL HOSPITAL,131307,Patient Experience,HCAHPS,H_COMP_5_STAR_RATING,Communication about medicines - star rating,4,3.2,Nation,All,All,3493
+WEISER MEMORIAL HOSPITAL,131307,Patient Experience,HCAHPS,H_COMP_6_STAR_RATING,Discharge information - star rating,4,3.12,Nation,All,All,3493
+WEISER MEMORIAL HOSPITAL,131307,Patient Experience,HCAHPS,H_COMP_7_STAR_RATING,Care transition - star rating,4,3.11,Nation,All,All,3493
+WEISER MEMORIAL HOSPITAL,131307,Patient Experience,HCAHPS,H_HSP_RATING_STAR_RATING,Overall hospital rating - star rating,3,3.29,Nation,All,All,3493
+WEISER MEMORIAL HOSPITAL,131307,Patient Experience,HCAHPS,H_QUIET_STAR_RATING,Quietness - star rating,3,2.81,Nation,All,All,3493
+WEISER MEMORIAL HOSPITAL,131307,Patient Experience,HCAHPS,H_RECMND_STAR_RATING,Recommend hospital - star rating,4,3.19,Nation,All,All,3493
+WEISER MEMORIAL HOSPITAL,131307,Patient Experience,HCAHPS,H_STAR_RATING,Summary star rating,4,3.22,Nation,All,All,3493

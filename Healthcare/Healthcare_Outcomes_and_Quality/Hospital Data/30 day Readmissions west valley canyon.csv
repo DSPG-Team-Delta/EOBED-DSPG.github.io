@@ -1,0 +1,7 @@
+Hospital Name,Hospital CCN,Domain,Subdomain,Measure ID,Measure Name,Hospital Value,Comparison Group Value,Comparison Group Geography,Comparison Group Type,Comparison Group Size,Number of Peers in Comparison Group
+WEST VALLEY MEDICAL CENTER,130014,Readmissions,Readmissions,READM_30_AMI,Acute Myocardial Infarction (AMI) 30-Day Readmission Rate,14.20%,15.60%,Nation,All,All,2163
+WEST VALLEY MEDICAL CENTER,130014,Readmissions,Readmissions,READM_30_COPD,Chronic Obstructive Pulmonary Disease (COPD) 30-Day Readmission Rate,18.50%,19.66%,Nation,All,All,3556
+WEST VALLEY MEDICAL CENTER,130014,Readmissions,Readmissions,READM_30_HF,Heart Failure (HF) 30-Day Readmission Rate,21.90%,21.63%,Nation,All,All,3676
+WEST VALLEY MEDICAL CENTER,130014,Readmissions,Readmissions,READM_30_HIP_KNEE,Hip/Knee Replacement 30-Day Readmission Rate,4.40%,3.90%,Nation,All,All,2746
+WEST VALLEY MEDICAL CENTER,130014,Readmissions,Readmissions,READM_30_HOSP_WIDE,Hospital 30-Day Readmission Rate (hospital-wide),14.60%,15.32%,Nation,All,All,4370
+WEST VALLEY MEDICAL CENTER,130014,Readmissions,Readmissions,READM_30_PN,Pneumonia (PN) 30-Day Readmission Rate,15.80%,16.82%,Nation,All,All,4124

@@ -1,0 +1,133 @@
+NAME,NAICS2017,NAICS2017_LABEL,LFO_LABEL,EMPSZES_LABEL,YEAR,ESTAB,PAYANN,PAYANN_N,PAYQTR1,PAYQTR1_N,EMP,EMP_N,LFO,EMPSZES,Rank_payroll,Rank_employment,Share_payroll,Share_employment
+"Malheur County, Oregon",44-45,Retail trade,All establishments,All establishments,2018,110,53808,H,12331,H,1843,G,1,1,2,1,19.92527282,22.23160434
+"Malheur County, Oregon",62,Health care and social assistance,All establishments,All establishments,2018,95,57911,H,13810,H,1410,H,1,1,1,2,21.44462672,17.00844391
+"Malheur County, Oregon",31-33,Manufacturing,All establishments,All establishments,2018,35,42773,J,10087,J,1178,J,1,1,3,3,15.83897737,14.20989144
+"Malheur County, Oregon",72,Accommodation and food services,All establishments,All establishments,2018,83,17372,G,4038,G,1090,G,1,1,5,4,6.432906621,13.14837153
+"Malheur County, Oregon",42,Wholesale trade,All establishments,All establishments,2018,37,19924,G,4617,G,563,G,1,1,4,5,7.377920303,6.791314837
+"Malheur County, Oregon",48-49,Transportation and warehousing,All establishments,All establishments,2018,29,13844,J,3320,J,352,J,1,1,6,6,5.126477047,4.246079614
+"Malheur County, Oregon",81,Other services (except public administration),All establishments,All establishments,2018,82,6865,G,1752,G,321,H,1,1,10,7,2.542131243,3.872135103
+"Malheur County, Oregon",23,Construction,All establishments,All establishments,2018,52,10035,G,2137,G,258,G,1,1,9,8,3.715992283,3.112183353
+"Malheur County, Oregon",54,"Professional, scientific, and technical services",All establishments,All establishments,2018,53,11879,G,2650,G,240,G,1,1,7,9,4.398831323,2.895054282
+"Malheur County, Oregon",51,Information,All establishments,All establishments,2018,11,4863,G,2479,H,239,H,1,1,11,10,1.800784302,2.882991556
+"Malheur County, Oregon",0,Total for all sectors,All establishments,All establishments,2018,703,270049,H,64477,H,8290,G,1,1,,,,
+"Malheur County, Oregon",0,Total for all sectors,All establishments,All establishments,2017,705,262531,G,60847,G,8362,G,1,1,,,100,100
+"Malheur County, Oregon",11,"Agriculture, forestry, fishing and hunting",All establishments,All establishments,2017,12,5585,H,1734,J,240,H,1,1,,,2.127367816,2.870126764
+"Malheur County, Oregon",21,"Mining, quarrying, and oil and gas extraction",All establishments,All establishments,2017,3,1151,G,285,G,27,H,1,1,,,0.438424415,0.322889261
+"Malheur County, Oregon",22,Utilities,All establishments,All establishments,2017,4,2368,G,587,G,43,G,1,1,,,0.901988718,0.514231045
+"Malheur County, Oregon",23,Construction,All establishments,All establishments,2017,51,8712,G,1588,G,220,G,1,1,,,3.318465248,2.630949534
+"Malheur County, Oregon",31-33,Manufacturing,All establishments,All establishments,2017,37,32467,J,7722,J,1019,J,1,1,,,12.36692048,12.18607989
+"Malheur County, Oregon",42,Wholesale trade,All establishments,All establishments,2017,35,20106,G,4573,G,518,G,1,1,,,7.658524136,6.194690265
+"Malheur County, Oregon",44-45,Retail trade,All establishments,All establishments,2017,110,53186,G,12082,G,1853,H,1,1,,,20.25894085,22.15977039
+"Malheur County, Oregon",48-49,Transportation and warehousing,All establishments,All establishments,2017,30,11211,J,3434,J,294,J,1,1,,,4.270352835,3.515905286
+"Malheur County, Oregon",51,Information,All establishments,All establishments,2017,11,15868,H,2491,H,229,H,1,1,,,6.044238585,2.738579287
+"Malheur County, Oregon",52,Finance and insurance,All establishments,All establishments,2017,38,11014,G,2809,G,231,H,1,1,,,4.195314077,2.76249701
+"Malheur County, Oregon",53,Real estate and rental and leasing,All establishments,All establishments,2017,27,2080,G,436,G,83,G,1,1,,,0.792287387,0.992585506
+"Malheur County, Oregon",54,"Professional, scientific, and technical services",All establishments,All establishments,2017,49,10334,G,2394,G,254,G,1,1,,,3.936297047,3.037550825
+"Malheur County, Oregon",55,Management of companies and enterprises,All establishments,All establishments,2017,3,S,S,S,S,b,S,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",56,Administrative and support and waste management and remediation services,All establishments,All establishments,2017,22,3242,H,661,G,125,H,1,1,,,1.234901783,1.49485769
+"Malheur County, Oregon",61,Educational services,All establishments,All establishments,2017,4,1446,H,345,H,59,H,1,1,,,0.550792097,0.705572829
+"Malheur County, Oregon",62,Health care and social assistance,All establishments,All establishments,2017,92,55803,H,13167,H,1608,H,1,1,,,21.25577551,19.22984932
+"Malheur County, Oregon",71,"Arts, entertainment, and recreation",All establishments,All establishments,2017,6,797,H,221,H,49,H,1,1,,,0.303583196,0.585984214
+"Malheur County, Oregon",72,Accommodation and food services,All establishments,All establishments,2017,82,16363,G,3815,G,1100,G,1,1,,,6.232787747,13.15474767
+"Malheur County, Oregon",81,Other services (except public administration),All establishments,All establishments,2017,89,6917,G,1624,G,322,G,1,1,,,2.634736469,3.850753408
+"Malheur County, Oregon",0,Total for all sectors,All establishments,All establishments,2016,704,258767,G,59608,G,8535,G,1,1,,,100,100
+"Malheur County, Oregon",11,"Agriculture, forestry, fishing and hunting",All establishments,All establishments,2016,12,6838,H,1642,H,260,H,1,1,,,2.642531698,3.046280023
+"Malheur County, Oregon",21,"Mining, quarrying, and oil and gas extraction",All establishments,All establishments,2016,3,552,H,129,H,20,J,1,1,,,0.213319318,0.234329233
+"Malheur County, Oregon",22,Utilities,All establishments,All establishments,2016,2,D,D,D,D,a,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",23,Construction,All establishments,All establishments,2016,46,6719,H,1180,H,166,G,1,1,,,2.596544382,1.94493263
+"Malheur County, Oregon",31-33,Manufacturing,All establishments,All establishments,2016,35,36731,J,7847,J,1086,J,1,1,,,14.19462296,12.72407733
+"Malheur County, Oregon",42,Wholesale trade,All establishments,All establishments,2016,39,21493,G,4931,G,615,G,1,1,,,8.305927726,7.205623902
+"Malheur County, Oregon",44-45,Retail trade,All establishments,All establishments,2016,112,52800,G,12860,G,1981,G,1,1,,,20.40445652,23.21031049
+"Malheur County, Oregon",48-49,Transportation and warehousing,All establishments,All establishments,2016,28,14275,J,3248,J,300,H,1,1,,,5.516545773,3.514938489
+"Malheur County, Oregon",51,Information,All establishments,All establishments,2016,9,7879,H,1788,H,220,H,1,1,,,3.044824108,2.577621558
+"Malheur County, Oregon",52,Finance and insurance,All establishments,All establishments,2016,39,9037,G,2442,G,205,H,1,1,,,3.492330939,2.401874634
+"Malheur County, Oregon",53,Real estate and rental and leasing,All establishments,All establishments,2016,26,1824,G,433,G,88,H,1,1,,,0.704881225,1.031048623
+"Malheur County, Oregon",54,"Professional, scientific, and technical services",All establishments,All establishments,2016,48,9559,G,2238,G,225,G,1,1,,,3.694056816,2.636203866
+"Malheur County, Oregon",55,Management of companies and enterprises,All establishments,All establishments,2016,3,D,D,D,D,c,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",56,Administrative and support and waste management and remediation services,All establishments,All establishments,2016,25,3250,H,890,H,125,H,1,1,,,1.25595613,1.464557704
+"Malheur County, Oregon",61,Educational services,All establishments,All establishments,2016,5,1382,H,340,H,64,G,1,1,,,0.534071191,0.749853544
+"Malheur County, Oregon",62,Health care and social assistance,All establishments,All establishments,2016,100,58380,H,13288,H,1635,H,1,1,,,22.56083658,19.15641476
+"Malheur County, Oregon",71,"Arts, entertainment, and recreation",All establishments,All establishments,2016,6,662,J,169,J,39,H,1,1,,,0.255828603,0.456942004
+"Malheur County, Oregon",72,Accommodation and food services,All establishments,All establishments,2016,80,15560,G,3489,G,1047,G,1,1,,,6.013131504,12.26713533
+"Malheur County, Oregon",81,Other services (except public administration),All establishments,All establishments,2016,85,7166,G,1698,G,307,H,1,1,,,2.769286656,3.59695372
+"Malheur County, Oregon",99,Industries not classified,All establishments,All establishments,2016,1,D,D,D,D,a,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",0,Total for all sectors,All establishments,All establishments,2012,725,220673,G,53668,G,8148,G,1,1,,,100,100
+"Malheur County, Oregon",11,"Agriculture, forestry, fishing and hunting",All establishments,All establishments,2012,11,5802,H,2104,G,387,G,1,1,,,2.629229675,4.749631811
+"Malheur County, Oregon",21,"Mining, quarrying, and oil and gas extraction",All establishments,All establishments,2012,2,D,D,D,D,a,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",22,Utilities,All establishments,All establishments,2012,3,D,D,D,D,a,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",23,Construction,All establishments,All establishments,2012,44,5091,G,1080,G,137,H,1,1,,,2.307033484,1.681394207
+"Malheur County, Oregon",31-33,Manufacturing,All establishments,All establishments,2012,35,D,D,D,D,g,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",42,Wholesale trade,All establishments,All establishments,2012,40,18154,G,4078,G,583,G,1,1,,,8.226652105,7.155130093
+"Malheur County, Oregon",44-45,Retail trade,All establishments,All establishments,2012,120,46288,G,11337,G,1858,G,1,1,,,20.97583302,22.80314188
+"Malheur County, Oregon",48-49,Transportation and warehousing,All establishments,All establishments,2012,36,D,D,D,D,e,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",51,Information,All establishments,All establishments,2012,7,4331,H,998,H,148,G,1,1,,,1.962632492,1.816396662
+"Malheur County, Oregon",52,Finance and insurance,All establishments,All establishments,2012,37,7967,G,2074,G,215,H,1,1,,,3.610319341,2.63868434
+"Malheur County, Oregon",53,Real estate and rental and leasing,All establishments,All establishments,2012,27,1348,H,304,H,b,S,1,1,,,0.610858601,#VALUE!
+"Malheur County, Oregon",54,"Professional, scientific, and technical services",All establishments,All establishments,2012,46,7140,G,1654,G,200,H,1,1,,,3.235556683,2.454590083
+"Malheur County, Oregon",55,Management of companies and enterprises,All establishments,All establishments,2012,3,D,D,D,D,c,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",56,Administrative and support and waste management and remediation services,All establishments,All establishments,2012,24,2667,G,563,G,88,G,1,1,,,1.208575585,1.080019637
+"Malheur County, Oregon",61,Educational services,All establishments,All establishments,2012,5,1049,H,251,H,b,S,1,1,,,0.475364,#VALUE!
+"Malheur County, Oregon",62,Health care and social assistance,All establishments,All establishments,2012,112,53085,H,12881,H,1538,H,1,1,,,24.0559561,18.87579774
+"Malheur County, Oregon",71,"Arts, entertainment, and recreation",All establishments,All establishments,2012,7,702,H,S,S,63,H,1,1,,,0.318117758,0.773195876
+"Malheur County, Oregon",72,Accommodation and food services,All establishments,All establishments,2012,85,14093,G,3220,G,1026,G,1,1,,,6.386372597,12.59204713
+"Malheur County, Oregon",81,Other services (except public administration),All establishments,All establishments,2012,81,5436,G,1340,G,270,G,1,1,,,2.463373408,3.313696613
+"Malheur County, Oregon",0,Total for all sectors,All establishments,All establishments,2013,712,222302,G,52416,G,8023,G,1,1,,,100,100
+"Malheur County, Oregon",11,"Agriculture, forestry, fishing and hunting",All establishments,All establishments,2013,11,D,D,D,D,c,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",21,"Mining, quarrying, and oil and gas extraction",All establishments,All establishments,2013,2,D,D,D,D,a,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",22,Utilities,All establishments,All establishments,2013,3,D,D,D,D,a,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",23,Construction,All establishments,All establishments,2013,46,5865,G,1037,G,163,G,1,1,,,2.638302849,2.03165898
+"Malheur County, Oregon",31-33,Manufacturing,All establishments,All establishments,2013,33,D,D,D,D,g,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",42,Wholesale trade,All establishments,All establishments,2013,38,18724,G,4124,G,583,G,1,1,,,8.422776223,7.266608501
+"Malheur County, Oregon",44-45,Retail trade,All establishments,All establishments,2013,115,45381,G,11056,G,1831,G,1,1,,,20.41412133,22.82188707
+"Malheur County, Oregon",48-49,Transportation and warehousing,All establishments,All establishments,2013,30,D,D,D,D,e,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",51,Information,All establishments,All establishments,2013,8,5575,H,1252,H,182,H,1,1,,,2.507849682,2.268478125
+"Malheur County, Oregon",52,Finance and insurance,All establishments,All establishments,2013,37,8245,G,2053,G,200,G,1,1,,,3.708918498,2.492833105
+"Malheur County, Oregon",53,Real estate and rental and leasing,All establishments,All establishments,2013,27,1457,H,322,H,62,G,1,1,,,0.655414706,0.772778262
+"Malheur County, Oregon",54,"Professional, scientific, and technical services",All establishments,All establishments,2013,45,7148,G,1721,G,196,G,1,1,,,3.215445655,2.442976443
+"Malheur County, Oregon",55,Management of companies and enterprises,All establishments,All establishments,2013,3,D,D,D,D,c,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",56,Administrative and support and waste management and remediation services,All establishments,All establishments,2013,26,2655,G,598,G,102,G,1,1,,,1.194321239,1.271344883
+"Malheur County, Oregon",61,Educational services,All establishments,All establishments,2013,5,1145,H,280,H,b,S,1,1,,,0.515065092,#VALUE!
+"Malheur County, Oregon",62,Health care and social assistance,All establishments,All establishments,2013,112,54319,H,13289,H,1603,H,1,1,,,24.43477791,19.98005734
+"Malheur County, Oregon",71,"Arts, entertainment, and recreation",All establishments,All establishments,2013,8,727,H,181,H,b,S,1,1,,,0.327032595,#VALUE!
+"Malheur County, Oregon",72,Accommodation and food services,All establishments,All establishments,2013,80,13923,G,3193,G,969,G,1,1,,,6.263101547,12.07777639
+"Malheur County, Oregon",81,Other services (except public administration),All establishments,All establishments,2013,83,5736,G,1452,G,324,G,1,1,,,2.580273682,4.03838963
+"Malheur County, Oregon",0,Total for all sectors,All establishments,All establishments,2014,704,240335,G,55827,G,8099,G,1,1,,,100,100
+"Malheur County, Oregon",11,"Agriculture, forestry, fishing and hunting",All establishments,All establishments,2014,10,D,D,D,D,c,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",21,"Mining, quarrying, and oil and gas extraction",All establishments,All establishments,2014,2,D,D,D,D,a,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",22,Utilities,All establishments,All establishments,2014,3,D,D,D,D,a,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",23,Construction,All establishments,All establishments,2014,43,5555,H,1040,H,161,G,1,1,,,2.311357064,1.987899741
+"Malheur County, Oregon",31-33,Manufacturing,All establishments,All establishments,2014,33,D,D,D,D,f,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",42,Wholesale trade,All establishments,All establishments,2014,37,20103,G,4592,G,599,G,1,1,,,8.364574448,7.395974812
+"Malheur County, Oregon",44-45,Retail trade,All establishments,All establishments,2014,118,49339,G,11726,G,1911,G,1,1,,,20.52926124,23.59550562
+"Malheur County, Oregon",48-49,Transportation and warehousing,All establishments,All establishments,2014,30,D,D,D,D,e,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",51,Information,All establishments,All establishments,2014,9,6418,H,1480,H,184,H,1,1,,,2.670439179,2.271885418
+"Malheur County, Oregon",52,Finance and insurance,All establishments,All establishments,2014,36,9256,G,2480,G,c,S,1,1,,,3.851290906,#VALUE!
+"Malheur County, Oregon",53,Real estate and rental and leasing,All establishments,All establishments,2014,27,1552,G,327,G,b,S,1,1,,,0.645765286,#VALUE!
+"Malheur County, Oregon",54,"Professional, scientific, and technical services",All establishments,All establishments,2014,42,8386,G,1979,G,209,G,1,1,,,3.489296191,2.580565502
+"Malheur County, Oregon",55,Management of companies and enterprises,All establishments,All establishments,2014,3,D,D,D,D,c,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",56,Administrative and support and waste management and remediation services,All establishments,All establishments,2014,26,3429,G,845,G,122,G,1,1,,,1.426758483,1.50635881
+"Malheur County, Oregon",61,Educational services,All establishments,All establishments,2014,4,1173,H,290,H,54,H,1,1,,,0.488068737,0.666748981
+"Malheur County, Oregon",62,Health care and social assistance,All establishments,All establishments,2014,108,58058,H,13695,H,1555,H,1,1,,,24.15711403,19.19990122
+"Malheur County, Oregon",71,"Arts, entertainment, and recreation",All establishments,All establishments,2014,8,D,D,D,D,b,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",72,Accommodation and food services,All establishments,All establishments,2014,81,14608,G,3330,G,999,G,1,1,,,6.078182537,12.33485616
+"Malheur County, Oregon",81,Other services (except public administration),All establishments,All establishments,2014,84,6558,G,1594,G,313,G,1,1,,,2.728691202,3.864674651
+"Malheur County, Oregon",0,Total for all sectors,All establishments,All establishments,2015,706,246453,G,57830,G,8370,G,1,1,,,100,100
+"Malheur County, Oregon",11,"Agriculture, forestry, fishing and hunting",All establishments,All establishments,2015,12,5372,H,1315,J,220,J,1,1,,,2.179725952,2.628434886
+"Malheur County, Oregon",21,"Mining, quarrying, and oil and gas extraction",All establishments,All establishments,2015,3,D,D,D,D,b,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",22,Utilities,All establishments,All establishments,2015,2,D,D,D,D,a,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",23,Construction,All establishments,All establishments,2015,44,5625,H,1072,H,171,G,1,1,,,2.282382442,2.043010753
+"Malheur County, Oregon",31-33,Manufacturing,All establishments,All establishments,2015,36,34504,J,7792,J,1048,J,1,1,,,14.00023534,12.520908
+"Malheur County, Oregon",42,Wholesale trade,All establishments,All establishments,2015,38,21257,G,4625,G,606,G,1,1,,,8.625173968,7.240143369
+"Malheur County, Oregon",44-45,Retail trade,All establishments,All establishments,2015,119,51862,G,13108,G,1958,G,1,1,,,21.04336324,23.39307049
+"Malheur County, Oregon",48-49,Transportation and warehousing,All establishments,All establishments,2015,27,13529,J,3209,J,316,J,1,1,,,5.48948481,3.775388292
+"Malheur County, Oregon",51,Information,All establishments,All establishments,2015,10,7391,H,1748,H,204,G,1,1,,,2.99894909,2.437275986
+"Malheur County, Oregon",52,Finance and insurance,All establishments,All establishments,2015,37,8551,G,2400,G,191,G,1,1,,,3.469627069,2.281959379
+"Malheur County, Oregon",53,Real estate and rental and leasing,All establishments,All establishments,2015,26,1721,G,415,G,70,G,1,1,,,0.698307588,0.836320191
+"Malheur County, Oregon",54,"Professional, scientific, and technical services",All establishments,All establishments,2015,45,8402,G,2038,G,214,G,1,1,,,3.409169294,2.556750299
+"Malheur County, Oregon",55,Management of companies and enterprises,All establishments,All establishments,2015,3,D,D,D,D,c,D,1,1,,,#VALUE!,#VALUE!
+"Malheur County, Oregon",56,Administrative and support and waste management and remediation services,All establishments,All establishments,2015,21,3612,G,730,G,111,G,1,1,,,1.465593845,1.326164875
+"Malheur County, Oregon",61,Educational services,All establishments,All establishments,2015,4,1263,H,320,H,57,H,1,1,,,0.512470938,0.681003584
+"Malheur County, Oregon",62,Health care and social assistance,All establishments,All establishments,2015,100,55399,H,12655,H,1605,H,1,1,,,22.47852532,19.17562724
+"Malheur County, Oregon",71,"Arts, entertainment, and recreation",All establishments,All establishments,2015,7,591,J,157,J,48,G,1,1,,,0.239802315,0.573476703
+"Malheur County, Oregon",72,Accommodation and food services,All establishments,All establishments,2015,83,15647,G,3633,G,1085,G,1,1,,,6.348877879,12.96296296
+"Malheur County, Oregon",81,Other services (except public administration),All establishments,All establishments,2015,89,6975,G,1657,G,317,H,1,1,,,2.830154228,3.787335723

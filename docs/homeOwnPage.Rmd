@@ -1,0 +1,36 @@
+---
+title: "Eastern Oregon Economic Development Project"
+author: "Oregon State University DSPG Team Delta"
+output: 
+   html_document: 
+     theme: darkly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Home Ownership/Renter Rates
+
+### Home Ownership
+```{r, include=F}
+source("../Housing/Homeownership/homeOwn.R", local = knitr::knit_global())
+
+```
+
+{center}
+```{r, echo=F}
+ownerMap
+
+```
+{/center}
+### Renters
+```{r, include=F}
+source("../Housing/Homeownership/renterData.R", local = knitr::knit_global())
+
+```
+
+```{r, echo=F}
+ownerMap
+
+```

@@ -1,0 +1,117 @@
+NAME,NAICS2017,NAICS2017_LABEL,LFO_LABEL,EMPSZES_LABEL,YEAR,ESTAB,PAYANN,PAYANN_N,PAYQTR1,PAYQTR1_N,EMP,EMP_N,LFO,EMPSZES,Rank_payroll,Rank_employment,Share_payroll,Share_employment
+"Canyon County, Idaho",31-33,Manufacturing,All establishments,All establishments,2018,235,436494,G,108808,G,9412,G,1,1,1,1,21.60070073,
+"Canyon County, Idaho",62,Health care and social assistance,All establishments,All establishments,2018,418,311762,H,72811,H,7862,H,1,1,2,2,15.42811049,
+"Canyon County, Idaho",23,Construction,All establishments,All establishments,2018,1145,292188,G,61398,G,6778,G,1,1,3,4,14.45945545,
+"Canyon County, Idaho",44-45,Retail trade,All establishments,All establishments,2018,508,242906,H,58329,H,7849,H,1,1,4,3,12.0206459,
+"Canyon County, Idaho",42,Wholesale trade,All establishments,All establishments,2018,183,125769,G,32063,G,2613,G,1,1,5,7,6.223908073,
+"Canyon County, Idaho",48-49,Transportation and warehousing,All establishments,All establishments,2018,204,90689,G,21390,G,2440,G,1,1,6,8,4.487910369,
+"Canyon County, Idaho",72,Accommodation and food services,All establishments,All establishments,2018,305,86150,G,20202,G,5825,G,1,1,7,5,4.263289686,
+"Canyon County, Idaho",54,"Professional, scientific, and technical services",All establishments,All establishments,2018,307,75505,G,17293,G,1620,G,1,1,8,11,3.736502469,
+"Canyon County, Idaho",56,Administrative and support and waste management and remediation services,All establishments,All establishments,2018,247,71653,G,13864,G,2826,G,1,1,9,6,3.545879232,
+"Canyon County, Idaho",81,Other services (except public administration),All establishments,All establishments,2018,344,67731,G,15900,G,2232,G,1,1,10,9,3.351791918,
+"Canyon County, Idaho",0,Total for all sectors,All establishments,All establishments,2018,4520,2020740,G,476483,G,55407,G,1,1,,,,
+"Canyon County, Idaho",0,Total for all sectors,All establishments,All establishments,2017,4199,1796257,G,417114,G,52037,G,1,1,,,100,100
+"Canyon County, Idaho",11,"Agriculture, forestry, fishing and hunting",All establishments,All establishments,2017,33,5558,G,1227,G,103,G,1,1,,,0.309421202,0.197936084
+"Canyon County, Idaho",21,"Mining, quarrying, and oil and gas extraction",All establishments,All establishments,2017,7,1933,G,461,H,39,G,1,1,,,0.107612663,0.074946673
+"Canyon County, Idaho",22,Utilities,All establishments,All establishments,2017,4,S,S,S,S,c,S,1,1,,,na,na
+"Canyon County, Idaho",23,Construction,All establishments,All establishments,2017,974,242129,G,49235,G,5804,G,1,1,,,13.47964128,11.15360224
+"Canyon County, Idaho",31-33,Manufacturing,All establishments,All establishments,2017,227,391462,G,93544,G,9354,G,1,1,,,21.79320665,17.97567116
+"Canyon County, Idaho",42,Wholesale trade,All establishments,All establishments,2017,187,118802,G,30663,G,2517,G,1,1,,,6.613864274,4.836942944
+"Canyon County, Idaho",44-45,Retail trade,All establishments,All establishments,2017,508,230843,H,55180,H,7804,G,1,1,,,12.85133475,14.99702135
+"Canyon County, Idaho",48-49,Transportation and warehousing,All establishments,All establishments,2017,192,84075,G,20090,G,2348,G,1,1,,,4.680566311,4.51217403
+"Canyon County, Idaho",51,Information,All establishments,All establishments,2017,57,36863,G,9139,H,829,H,1,1,,,2.052211905,1.593097219
+"Canyon County, Idaho",52,Finance and insurance,All establishments,All establishments,2017,225,61471,H,15145,G,1147,H,1,1,,,3.422171772,2.204200857
+"Canyon County, Idaho",53,Real estate and rental and leasing,All establishments,All establishments,2017,182,17234,G,3750,G,511,H,1,1,,,0.959439546,0.981993581
+"Canyon County, Idaho",54,"Professional, scientific, and technical services",All establishments,All establishments,2017,287,60274,G,12932,G,1280,G,1,1,,,3.3555332,2.459788228
+"Canyon County, Idaho",55,Management of companies and enterprises,All establishments,All establishments,2017,16,34468,G,8658,G,491,G,1,1,,,1.918879091,0.94355939
+"Canyon County, Idaho",56,Administrative and support and waste management and remediation services,All establishments,All establishments,2017,214,57540,G,11169,G,2445,G,1,1,,,3.203327809,4.698579857
+"Canyon County, Idaho",61,Educational services,All establishments,All establishments,2017,34,36054,G,8801,G,1686,G,1,1,,,2.007173806,3.240002306
+"Canyon County, Idaho",62,Health care and social assistance,All establishments,All establishments,2017,404,260624,H,59738,H,7146,G,1,1,,,14.50928236,13.73253646
+"Canyon County, Idaho",71,"Arts, entertainment, and recreation",All establishments,All establishments,2017,43,8195,H,1867,H,884,J,1,1,,,0.456226475,1.698791245
+"Canyon County, Idaho",72,Accommodation and food services,All establishments,All establishments,2017,283,75656,G,17335,G,5357,G,1,1,,,4.21186946,10.29459807
+"Canyon County, Idaho",81,Other services (except public administration),All establishments,All establishments,2017,318,61455,G,14567,G,2157,G,1,1,,,3.42128103,4.145127505
+"Canyon County, Idaho",99,Industries not classified,All establishments,All establishments,2017,4,65,G,8,J,5,G,1,1,,,0.003618636,0.009608548
+"Canyon County, Idaho",0,Total for all sectors,All establishments,All establishments,2016,3979,1707368,G,393918,G,50955,G,1,1,,,100,100
+"Canyon County, Idaho",11,"Agriculture, forestry, fishing and hunting",All establishments,All establishments,2016,27,3758,G,1155,G,114,H,1,1,,,0.220104863,0.223726818
+"Canyon County, Idaho",21,"Mining, quarrying, and oil and gas extraction",All establishments,All establishments,2016,6,1700,H,361,H,33,J,1,1,,,0.099568459,0.064763026
+"Canyon County, Idaho",22,Utilities,All establishments,All establishments,2016,4,D,D,D,D,c,D,1,1,,,#VALUE!,#VALUE!
+"Canyon County, Idaho",23,Construction,All establishments,All establishments,2016,851,212271,G,43310,G,5240,G,1,1,,,12.43264487,10.28358355
+"Canyon County, Idaho",31-33,Manufacturing,All establishments,All establishments,2016,207,390361,G,89411,G,9198,G,1,1,,,22.86331945,18.05122167
+"Canyon County, Idaho",42,Wholesale trade,All establishments,All establishments,2016,184,106914,G,26841,G,2287,G,1,1,,,6.26191893,4.488273967
+"Canyon County, Idaho",44-45,Retail trade,All establishments,All establishments,2016,511,237790,G,57381,G,8488,G,1,1,,,13.92728457,16.65783534
+"Canyon County, Idaho",48-49,Transportation and warehousing,All establishments,All establishments,2016,184,76069,G,17762,G,2256,G,1,1,,,4.455337104,4.427435973
+"Canyon County, Idaho",51,Information,All establishments,All establishments,2016,61,35754,H,9384,H,846,H,1,1,,,2.094100393,1.66028849
+"Canyon County, Idaho",52,Finance and insurance,All establishments,All establishments,2016,218,51080,H,12275,H,1057,H,1,1,,,2.991739332,2.074379354
+"Canyon County, Idaho",53,Real estate and rental and leasing,All establishments,All establishments,2016,172,16703,G,3767,G,531,H,1,1,,,0.97828939,1.042095967
+"Canyon County, Idaho",54,"Professional, scientific, and technical services",All establishments,All establishments,2016,285,61854,G,13813,G,1400,G,1,1,,,3.622769081,2.747522324
+"Canyon County, Idaho",55,Management of companies and enterprises,All establishments,All establishments,2016,12,17001,G,3888,G,278,G,1,1,,,0.995743156,0.545579433
+"Canyon County, Idaho",56,Administrative and support and waste management and remediation services,All establishments,All establishments,2016,208,53741,G,10853,G,2299,G,1,1,,,3.147593255,4.511824159
+"Canyon County, Idaho",61,Educational services,All establishments,All establishments,2016,36,35210,G,8668,G,1768,G,1,1,,,2.062238486,3.469728192
+"Canyon County, Idaho",62,Health care and social assistance,All establishments,All establishments,2016,391,256451,H,59605,H,7072,G,1,1,,,15.0202534,13.87891277
+"Canyon County, Idaho",71,"Arts, entertainment, and recreation",All establishments,All establishments,2016,39,8228,H,1837,H,888,J,1,1,,,0.48191134,1.74271416
+"Canyon County, Idaho",72,Accommodation and food services,All establishments,All establishments,2016,267,71310,G,16465,G,4934,G,1,1,,,4.176603989,9.683053675
+"Canyon County, Idaho",81,Other services (except public administration),All establishments,All establishments,2016,314,60051,G,14059,G,2135,G,1,1,,,3.517167945,4.189971544
+"Canyon County, Idaho",99,Industries not classified,All establishments,All establishments,2016,2,D,D,D,D,a,D,1,1,,,#VALUE!,#VALUE!
+"Canyon County, Idaho",0,Total for all sectors,All establishments,All establishments,2014,3723,1475571,G,345981,G,47157,G,1,1,,,100,100
+"Canyon County, Idaho",11,"Agriculture, forestry, fishing and hunting",All establishments,All establishments,2014,28,5948,G,1713,G,136,G,1,1,,,0.40309819,0.288398329
+"Canyon County, Idaho",21,"Mining, quarrying, and oil and gas extraction",All establishments,All establishments,2014,9,1582,H,S,S,b,S,1,1,,,0.107212733,#VALUE!
+"Canyon County, Idaho",22,Utilities,All establishments,All establishments,2014,5,D,D,D,D,c,D,1,1,,,#VALUE!,#VALUE!
+"Canyon County, Idaho",23,Construction,All establishments,All establishments,2014,724,160801,G,31246,G,4173,G,1,1,,,10.89754407,8.849163433
+"Canyon County, Idaho",31-33,Manufacturing,All establishments,All establishments,2014,199,320752,G,76849,G,8279,G,1,1,,,21.73748332,17.55624828
+"Canyon County, Idaho",42,Wholesale trade,All establishments,All establishments,2014,171,85341,G,20802,G,1947,G,1,1,,,5.783591572,4.128761372
+"Canyon County, Idaho",44-45,Retail trade,All establishments,All establishments,2014,492,205172,G,47188,G,7676,G,1,1,,,13.90458338,16.27754098
+"Canyon County, Idaho",48-49,Transportation and warehousing,All establishments,All establishments,2014,192,66826,G,15704,G,2039,G,1,1,,,4.528823079,4.323854359
+"Canyon County, Idaho",51,Information,All establishments,All establishments,2014,42,34185,H,9304,H,826,H,1,1,,,2.316730269,1.751595733
+"Canyon County, Idaho",52,Finance and insurance,All establishments,All establishments,2014,204,47599,G,13925,G,1099,H,1,1,,,3.225802079,2.330512967
+"Canyon County, Idaho",53,Real estate and rental and leasing,All establishments,All establishments,2014,154,16563,G,3832,G,566,G,1,1,,,1.122480721,1.200245987
+"Canyon County, Idaho",54,"Professional, scientific, and technical services",All establishments,All establishments,2014,270,58845,G,13461,G,1426,G,1,1,,,3.987947717,3.023941302
+"Canyon County, Idaho",55,Management of companies and enterprises,All establishments,All establishments,2014,12,13888,H,3347,H,229,H,1,1,,,0.941194968,0.485611892
+"Canyon County, Idaho",56,Administrative and support and waste management and remediation services,All establishments,All establishments,2014,197,47083,G,9606,G,2152,G,1,1,,,3.190832566,4.563479441
+"Canyon County, Idaho",61,Educational services,All establishments,All establishments,2014,39,44226,G,10635,G,2163,G,1,1,,,2.997212604,4.586805776
+"Canyon County, Idaho",62,Health care and social assistance,All establishments,All establishments,2014,380,239904,H,56708,H,6832,G,1,1,,,16.25838404,14.48777488
+"Canyon County, Idaho",71,"Arts, entertainment, and recreation",All establishments,All establishments,2014,41,7204,H,1764,H,931,H,1,1,,,0.488217781,1.974256208
+"Canyon County, Idaho",72,Accommodation and food services,All establishments,All establishments,2014,266,56929,G,13838,G,4523,G,1,1,,,3.858099678,9.591365015
+"Canyon County, Idaho",81,Other services (except public administration),All establishments,All establishments,2014,294,52601,G,12896,G,1994,G,1,1,,,3.564789495,4.228428441
+"Canyon County, Idaho",99,Industries not classified,All establishments,All establishments,2014,4,19,G,2,G,a,S,1,1,,,0.001287637,#VALUE!
+"Canyon County, Idaho",0,Total for all sectors,All establishments,All establishments,2013,3627,1389733,G,325305,G,45609,G,1,1,,,100,100
+"Canyon County, Idaho",11,"Agriculture, forestry, fishing and hunting",All establishments,All establishments,2013,25,5392,H,1433,H,172,H,1,1,,,0.387988196,0.377118551
+"Canyon County, Idaho",21,"Mining, quarrying, and oil and gas extraction",All establishments,All establishments,2013,8,2487,G,473,H,39,H,1,1,,,0.178955238,0.085509439
+"Canyon County, Idaho",22,Utilities,All establishments,All establishments,2013,5,D,D,D,D,c,D,1,1,,,#VALUE!,#VALUE!
+"Canyon County, Idaho",23,Construction,All establishments,All establishments,2013,685,134689,G,25694,G,3567,G,1,1,,,9.691717762,7.820824837
+"Canyon County, Idaho",31-33,Manufacturing,All establishments,All establishments,2013,190,310717,G,73005,G,8045,G,1,1,,,22.35803568,17.63906247
+"Canyon County, Idaho",42,Wholesale trade,All establishments,All establishments,2013,171,87216,G,20990,G,1964,G,1,1,,,6.275737858,4.306167642
+"Canyon County, Idaho",44-45,Retail trade,All establishments,All establishments,2013,476,196035,G,46615,G,7406,G,1,1,,,14.10594697,16.2380232
+"Canyon County, Idaho",48-49,Transportation and warehousing,All establishments,All establishments,2013,187,57214,G,13584,G,2098,G,1,1,,,4.116905909,4.599969304
+"Canyon County, Idaho",51,Information,All establishments,All establishments,2013,39,33831,H,8673,H,897,H,1,1,,,2.434352498,1.966717095
+"Canyon County, Idaho",52,Finance and insurance,All establishments,All establishments,2013,207,43778,G,11611,G,1017,G,1,1,,,3.150101494,2.229823061
+"Canyon County, Idaho",53,Real estate and rental and leasing,All establishments,All establishments,2013,151,13542,G,2738,G,e,S,1,1,,,0.974431779,#VALUE!
+"Canyon County, Idaho",54,"Professional, scientific, and technical services",All establishments,All establishments,2013,257,53685,G,12335,G,1349,G,1,1,,,3.86297224,2.957749567
+"Canyon County, Idaho",55,Management of companies and enterprises,All establishments,All establishments,2013,13,21600,H,5062,H,331,H,1,1,,,1.554255386,0.725733956
+"Canyon County, Idaho",56,Administrative and support and waste management and remediation services,All establishments,All establishments,2013,205,47236,G,9616,G,2045,G,1,1,,,3.398926269,4.483764169
+"Canyon County, Idaho",61,Educational services,All establishments,All establishments,2013,38,41539,G,9937,G,2171,G,1,1,,,2.988991411,4.760025434
+"Canyon County, Idaho",62,Health care and social assistance,All establishments,All establishments,2013,381,222258,H,54194,H,7002,G,1,1,,,15.99285618,15.35223311
+"Canyon County, Idaho",71,"Arts, entertainment, and recreation",All establishments,All establishments,2013,39,6564,H,1610,H,f,S,1,1,,,0.472320942,#VALUE!
+"Canyon County, Idaho",72,Accommodation and food services,All establishments,All establishments,2013,253,52471,G,12396,G,3924,G,1,1,,,3.775617331,8.603565086
+"Canyon County, Idaho",81,Other services (except public administration),All establishments,All establishments,2013,292,49063,G,12134,G,2015,G,1,1,,,3.53039037,4.417987678
+"Canyon County, Idaho",99,Industries not classified,All establishments,All establishments,2013,5,184,G,S,S,a,S,1,1,,,0.013239953,#VALUE!
+"Canyon County, Idaho",0,Total for all sectors,All establishments,All establishments,2015,3838,1595722,G,368886,G,49253,G,1,1,,,100,100
+"Canyon County, Idaho",11,"Agriculture, forestry, fishing and hunting",All establishments,All establishments,2015,29,4132,G,1350,G,154,H,1,1,,,0.258942347,0.312671309
+"Canyon County, Idaho",21,"Mining, quarrying, and oil and gas extraction",All establishments,All establishments,2015,6,1725,H,389,H,33,G,1,1,,,0.108101536,0.067000995
+"Canyon County, Idaho",22,Utilities,All establishments,All establishments,2015,4,D,D,D,D,c,D,1,1,,,#VALUE!,#VALUE!
+"Canyon County, Idaho",23,Construction,All establishments,All establishments,2015,786,183721,G,37255,G,4617,G,1,1,,,11.51334631,9.374048281
+"Canyon County, Idaho",31-33,Manufacturing,All establishments,All establishments,2015,197,353755,G,80144,G,8778,G,1,1,,,22.16896176,17.82226463
+"Canyon County, Idaho",42,Wholesale trade,All establishments,All establishments,2015,175,97128,G,22765,G,2061,G,1,1,,,6.086774513,4.184516679
+"Canyon County, Idaho",44-45,Retail trade,All establishments,All establishments,2015,509,224162,G,53364,G,8199,G,1,1,,,14.047685,16.64670172
+"Canyon County, Idaho",48-49,Transportation and warehousing,All establishments,All establishments,2015,190,75591,G,17416,G,2158,G,1,1,,,4.73710333,4.381458997
+"Canyon County, Idaho",51,Information,All establishments,All establishments,2015,48,38992,H,9635,H,885,H,1,1,,,2.443533397,1.796844862
+"Canyon County, Idaho",52,Finance and insurance,All establishments,All establishments,2015,209,46610,G,11730,G,984,H,1,1,,,2.92093485,1.997847847
+"Canyon County, Idaho",53,Real estate and rental and leasing,All establishments,All establishments,2015,155,17533,G,3893,G,488,G,1,1,,,1.098750284,0.990802591
+"Canyon County, Idaho",54,"Professional, scientific, and technical services",All establishments,All establishments,2015,281,54944,G,13484,G,1417,G,1,1,,,3.443206273,2.876982113
+"Canyon County, Idaho",55,Management of companies and enterprises,All establishments,All establishments,2015,11,15245,G,3613,H,228,H,1,1,,,0.955366912,0.462915965
+"Canyon County, Idaho",56,Administrative and support and waste management and remediation services,All establishments,All establishments,2015,201,49245,G,10507,G,2240,G,1,1,,,3.086063863,4.547946318
+"Canyon County, Idaho",61,Educational services,All establishments,All establishments,2015,40,46031,G,11231,G,2172,G,1,1,,,2.884650334,4.409883662
+"Canyon County, Idaho",62,Health care and social assistance,All establishments,All establishments,2015,382,244992,H,57848,H,6980,G,1,1,,,15.35305022,14.17172558
+"Canyon County, Idaho",71,"Arts, entertainment, and recreation",All establishments,All establishments,2015,40,7933,H,1881,H,913,H,1,1,,,0.497141733,1.853694191
+"Canyon County, Idaho",72,Accommodation and food services,All establishments,All establishments,2015,270,66460,G,15701,G,4744,G,1,1,,,4.164885864,9.631900595
+"Canyon County, Idaho",81,Other services (except public administration),All establishments,All establishments,2015,303,56707,G,13620,G,2073,G,1,1,,,3.553689176,4.208880677
+"Canyon County, Idaho",99,Industries not classified,All establishments,All establishments,2015,2,D,D,D,D,a,D,1,1,,,#VALUE!,#VALUE!

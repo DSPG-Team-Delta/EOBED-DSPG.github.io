@@ -1,0 +1,70 @@
+---
+title: "Eastern Oregon Economic Development Project"
+author: "Oregon State University DSPG Team Delta"
+navbar:
+   title: "Menu"
+   type: default
+   left:
+      - text: "Home"
+        icon: fa-home
+        href: ./index.html
+output: 
+   html_document: 
+     theme: darkly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## {.tabset}
+
+### General
+Placholder introductory paragraph. Put information about the section here to generate
+interest in the material. Add text in between links if desired.
+
+[Population](./Population_Map/populationPage.html)
+
+[Poverty](./Poverty_Data/povertyPage.html)
+
+[Unemployment]
+
+[Demographics Information](./Race/demoChgPage.html)
+
+[Median Income](./Median_Income/medIncPage.html)
+
+[Licensure]
+
+### Quality of Life
+Placholder introductory paragraph. Put information about the section here to generate
+interest in the material. Add text in between links if desired.
+
+[Healthcare Determinants](./Healthcare/healthDeterPage.html)
+
+[Healthcare Outcomes](./Healthcare/healthQualPage.html)
+
+[Education Determinants](./Education/edDeterPage.html)
+
+[Education Outcomes](./Education/edOutcomePage.html)
+
+[College and Career Readiness](./Education/ccrPage.html)
+
+[Determinants of Economic Opportunity](./Economics/econDeterPage.html)
+
+[State of Economic Wellbeing](./Economics/econStatePage.html)
+
+### Housing {.active}
+Placholder introductory paragraph. Put information about the section here to generate
+interest in the material. Add text in between links if desired.
+
+[Housing Costs and Affordability](./Housing/housingCostPage.html)
+
+[RN Housing Costs and Affordability](./Housing/rnCostPage.html)
+
+[Home Ownership Rates](./Housing/homeOwnPage.html)
+
+### Data Tables
+
+### References
+
+## {-}
