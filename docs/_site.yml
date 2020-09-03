@@ -1,3 +1,8 @@
+name: "EOBED-DSPG"
+output_dir: "."
+output:
+    html_document:
+        theme: darkly
 navbar:
     title: "Eastern Oregon Economic Development Project"
     left:
@@ -5,6 +10,8 @@ navbar:
           href: index.html
         - text: "General"
           menu:
+            - text: "General Main Page"
+              href: genPage.html
             - text: "Population"
               href: populationPage.html
             - text: "Poverty"
@@ -17,6 +24,8 @@ navbar:
               href: medIncPage.html
         - text: "Quality of Life"
           menu:
+            - text: "QoL Main Page"
+              href: qolPage.html
             - text: "Healthcare Determinants"
               href: healthDeterPage.html
             - text: "Healthcare Outcomes"
@@ -33,6 +42,8 @@ navbar:
               href: econStatePage.html
         - text: "Housing"
           menu:
+            - text: "Housing Main Page"
+              href: housingPage.html
             - text: "Cost and Affordability"
               href: housingCostPage.html
             - text: "RN Cost and Affordability"
