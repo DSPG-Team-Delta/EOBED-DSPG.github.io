@@ -25,12 +25,12 @@ library(rappdirs)
 library(sf)
 library(maptools)
 
-addEdOutShapes <- function(map, df, group = NULL, fOp = 0.6, fc, inLab){
+addEdOutShapes <- function(map, df, group = NULL, fOp = 0.6, fc, indLab, addStr, addLab){
    # Set up highlight label text (HTML formatting)
-   myLab <- paste("Index: ",inLab)
-   # moeLab <- paste("Margin of Error: ",as.numeric(df$povMOE),"%",sep = "")
+   myLab <- paste("Index: ",indLab)
+   myAddLab <- paste(addStr,addLab)
    labels <- sprintf(
-      "<strong>%s, %s County</strong></br>%s",df$NAME,df$County,myLab
+      "<strong>%s, %s County</strong></br>%s</br>%s",df$NAME,df$County,myLab,myAddLab
    )
    # Add Shapes to map
    addPolygons(map = map,
@@ -112,12 +112,12 @@ drawEdOutMap <- function(){
 
       addProviderTiles("CartoDB.DarkMatter") %>%
 
-      addEdOutShapes(df = edOut_merge, fOp = 1, group = groups[1], fc = ~pal(INDEX_Overall), edOut_merge$INDEX_Overall) %>%
-      addEdOutShapes(df = edOut_merge, fOp = 1, group = groups[2], fc = ~pal(INDEX_Attendance), edOut_merge$INDEX_Attendance) %>%
-      addEdOutShapes(df = edOut_merge, fOp = 1, group = groups[3], fc = ~pal(INDEX_ISS), edOut_merge$INDEX_ISS) %>%
-      addEdOutShapes(df = edOut_merge, fOp = 1, group = groups[4], fc = ~pal(INDEX_OOS), edOut_merge$INDEX_OOS) %>%
-      addEdOutShapes(df = edOut_merge, fOp = 1, group = groups[5], fc = ~pal(INDEX_Expulsion), edOut_merge$INDEX_Expulsion) %>%
-      addEdOutShapes(df = edOut_merge, fOp = 1, group = groups[6], fc = ~pal(INDEX_Grad), edOut_merge$INDEX_Grad) %>%
+      addEdOutShapes(df = edOut_merge, fOp = 1, group = groups[1], fc = ~pal(INDEX_Overall), indLab = edOut_merge$INDEX_Overall, addStr = "Ranking Overall: ", addLab = edOut_merge$Rank.Overall) %>%
+      addEdOutShapes(df = edOut_merge, fOp = 1, group = groups[2], fc = ~pal(INDEX_Attendance), indLab = edOut_merge$INDEX_Attendance, addStr = "Absenteeism Rate (%): ", addLab = edOut_merge$Absenteeism.Rate) %>%
+      addEdOutShapes(df = edOut_merge, fOp = 1, group = groups[3], fc = ~pal(INDEX_ISS), indLab = edOut_merge$INDEX_ISS, addStr = "In-school Suspension Rate (%): ", addLab = edOut_merge$In.school.Suspension.Rate....) %>%
+      addEdOutShapes(df = edOut_merge, fOp = 1, group = groups[4], fc = ~pal(INDEX_OOS), indLab = edOut_merge$INDEX_OOS, addStr = "Out-of-school Suspension Rate (%): ", addLab = edOut_merge$Out.of.school.Suspension.Rate....) %>%
+      addEdOutShapes(df = edOut_merge, fOp = 1, group = groups[5], fc = ~pal(INDEX_Expulsion), indLab = edOut_merge$INDEX_Expulsion, addStr = "Expulsion Rate (%): ", addLab = edOut_merge$Expulsion.Rate....) %>%
+      addEdOutShapes(df = edOut_merge, fOp = 1, group = groups[6], fc = ~pal(INDEX_Grad), indLab = edOut_merge$INDEX_Grad, addStr = "4 Year Graduation Rate (%): ", addLab = edOut_merge$X4.Year.Graduation.Rate....) %>%
 
 
       # Adds the state borders inside your map, put as the last added Polygon
@@ -145,6 +145,7 @@ drawEdOutMap <- function(){
                  lat=cityLat,
                  label=cityNames,
                  icon = circle_black,
+                 group = "Cities",
                  labelOptions = labelOptions(noHide = T,
                                              textsize = "12px",
                                              direction = "bottom")) %>%
@@ -154,6 +155,7 @@ drawEdOutMap <- function(){
                  lat=cityLat2[1],
                  label=cityNames2[1],
                  icon = circle_black,
+                 group = "Cities",
                  labelOptions = labelOptions(noHide = T,
                                              textsize = "12px",
                                              direction = "top")) %>%
@@ -167,7 +169,7 @@ drawEdOutMap <- function(){
                 na.label = "No Data",
                 labels = c(1,2,3,4,5)) %>%
 
-      addLayersControl(baseGroups = groups,
+      addLayersControl(baseGroups = groups, overlayGroups = "Cities",
                        position = "topleft", options = layersControlOptions(collapsed = F))
 
 

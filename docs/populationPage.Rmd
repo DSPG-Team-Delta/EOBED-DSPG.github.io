@@ -11,7 +11,7 @@ source("../Population_Map/population_Map.R", local = knitr::knit_global())
 
 ```
 
-```{r, echo=F}
+```{r, echo=F, fig.height=6,fig.width=10}
 populationMap
 
 ```

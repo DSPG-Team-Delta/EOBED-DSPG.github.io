@@ -1,0 +1,50 @@
+---
+title: "Worker Flow"
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=F}
+library(plotly)
+drawFlowMalhuer <- function(){
+  y = c(9832,-697,-680,-192,-167,-1799,6297,2854,824,572,373,2723,13643)
+  text = c("","-7.1%","-6.9%","2.0%","1.7%","18.3%", "","20.9%","6.0%","4.2%","2.7%","20.0%","")
+  # x = list(c("Initial","Malheur Residents Working Locations","Malheur Residents Working Locations","Malheur Residents Working Locations","Malheur Residents Working Locations","Malheur Residents Working Locations", "Net", "Workers Residence Locations","Workers Residence Locations","Workers Residence Locations","Workers Residence Locations","Workers Residence Locations","Total"),
+  #          c("Malheur Residents", "Canyon ID", "Payette ID", "Ada ID", "Jackson ID", "Other","Malheur Resident Workers","Payette ID", "Canyon ID", "Washington ID", "Ada ID", "Other", "Workers in Malheur"))
+  x= list("Malheur Residents", "Work in Canyon ID", "Work in Payette ID", "Work in Ada ID", "Work in Jackson ID", "Work in Other","Malheur Resident Workers","Live in Payette, ID", "Live in Canyon, ID", "Live in Washington, ID", "Live in Ada, ID", "Live in Other", "Workers in Malheur")
+  measure = c("absolute", "relative","relative","relative","relative","relative","total","relative","relative","relative","relative","relative","total")
+  data = data.frame(x=factor(x,levels=x),measure,text,y)
+  fig1 <<- plot_ly(data,x=~x,y=~y,measure=~measure, text =~text, type = "waterfall", textposition= "outside",decreasing = list(marker = list(color = "Maroon", line = list(color = "red", width = 2))),
+                 increasing = (marker = list(color = "Teal")),
+                 totals = list(marker = list(color = "deep sky blue", line = list(color = 'blue', width = 3))))
+  fig1 <<- fig1 %>% plotly::layout(title = "Flow of Workers in Malheur", xaxis = list(title = "Locations"),yaxis = list(title="Number of people",range = c(0,15000)))
+  fig1
+}
+
+drawFlowPayette <- function(){
+  y =c(9390, -2854,-1399,-1078,-222,-1043,2794,851,680,518,256,766,0)
+  text = c("","-30.4%","-14.8%","-11.5%", "2.4%","11.1%","","14.5%","11.6%","8.8%","4.4%","13.1%","")
+  x = list("Payette Residents", "Work in Malheur OR", "Work in Ada ID", "Work in Canyon ID", "Work in Washington ID", "Work in Other","Payette Resident Workers","Live in Canyon, ID", "Live in Malheur, OR", "Live in Ada, ID", "Live in Washing, ID", "Live in Other", "Workers in Payette")
+  measure = c("absolute", "relative","relative","relative","relative","relative","total","relative","relative","relative","relative","relative","total")
+  data = data.frame(x=factor(x,levels=x),measure,text,y)
+  fig2 <<- plot_ly(data,x=~x,y=~y,measure=~measure, type = "waterfall", text = ~text, textposition= "outside",decreasing = list(marker = list(color = "Maroon", line = list(color = "red", width = 2))),
+                 increasing = (marker = list(color = "Teal")),
+                 totals = list(marker = list(color = "deep sky blue", line = list(color = 'blue', width = 3))))
+  fig2 <<- fig2 %>% plotly::layout(title = "Flow of Workers in Payette", xaxis = list(title = "Locations"),yaxis = list(title="Number of people",range = c(0,15000)))
+  fig2
+}
+
+drawFlowMalhuer()
+drawFlowPayette()
+```
+
+## Worker Flow: Malheur
+```{r, echo=F, fig.height=6,fig.width=10}
+fig1
+```
+
+## Worker Flow: Payette
+```{r, echo=F, fig.height=6,fig.width=10}
+fig2
+```

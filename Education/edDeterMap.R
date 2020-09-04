@@ -25,12 +25,12 @@ library(rappdirs)
 library(sf)
 library(maptools)
 
-addEdDeterShapes <- function(map, df, group = NULL, fOp = 0.6, fc, inLab){
+addEdDeterShapes <- function(map, df, group = NULL, fOp = 0.6, fc, indLab, addStr, addLab){
    # Set up highlight label text (HTML formatting)
-   myLab <- paste("Quality Index: ",inLab)
-   # moeLab <- paste("Margin of Error: ",as.numeric(df$povMOE),"%",sep = "")
+   myLab <- paste("Index: ",indLab)
+   myAddLab <- paste(addStr,addLab)
    labels <- sprintf(
-      "<strong>%s, %s County</strong></br>%s",df$NAME,df$County,myLab
+      "<strong>%s, %s County</strong></br>%s</br>%s",df$NAME,df$County,myLab,myAddLab
    )
    # Add Shapes to map
    addPolygons(map = map,
@@ -80,7 +80,7 @@ drawEdDeterMap <- function(){
 
 
    edDeter <- read.csv("../Education/2015_District_Data_EducationDeterminants.csv", header = T)
-   edDeter$INDEX_Overall <- as.numeric(edDeter$INDEX_Overall)
+   edDeter$INDEX_overall <- as.numeric(edDeter$INDEX_overall)
 
    myDistricts <- readEdDeterShapes()
 
@@ -88,7 +88,7 @@ drawEdDeterMap <- function(){
    edDeter$GEOID <- as.character(edDeter$GEOID)
 
    edDeter_merge <- geo_join(myDistricts, edDeter, "GEOID","GEOID")
-   edDeter_merge$INDEX_Overall <- as.integer(edDeter_merge$INDEX_Overall)
+   edDeter_merge$INDEX_overall <- as.integer(edDeter_merge$INDEX_overall)
 
    myDomain <- as.integer(c(1,2,3,4,5))
 
@@ -112,12 +112,12 @@ drawEdDeterMap <- function(){
 
       addProviderTiles("CartoDB.DarkMatter") %>%
 
-      addEdDeterShapes(df = edDeter_merge, fOp = 1, group = groups[1], fc = ~pal(INDEX_Overall), edDeter_merge$INDEX_Overall) %>%
-      addEdDeterShapes(df = edDeter_merge, fOp = 1, group = groups[2], fc = ~pal(INDEX_STR), edDeter_merge$INDEX_STR) %>%
-      addEdDeterShapes(df = edDeter_merge, fOp = 1, group = groups[3], fc = ~pal(INDEX_SCR), edDeter_merge$INDEX_SCR) %>%
-      addEdDeterShapes(df = edDeter_merge, fOp = 1, group = groups[4], fc = ~pal(INDEX_Experience), edDeter_merge$INDEX_Experience) %>%
-      addEdDeterShapes(df = edDeter_merge, fOp = 1, group = groups[5], fc = ~pal(INDEX_TeacherSalary), edDeter_merge$INDEX_TeacherSalary) %>%
-      addEdDeterShapes(df = edDeter_merge, fOp = 1, group = groups[6], fc = ~pal(INDEX_Title1), edDeter_merge$INDEX_Title1) %>%
+      addEdDeterShapes(df = edDeter_merge, fOp = 1, group = groups[1], fc = ~pal(INDEX_overall), indLab = edDeter_merge$INDEX_overall, addStr = "Ranking Overall: ", addLab = edDeter_merge$Rank.Overall) %>%
+      addEdDeterShapes(df = edDeter_merge, fOp = 1, group = groups[2], fc = ~pal(INDEX_STR), indLab = edDeter_merge$INDEX_STR, addStr = "Student to Teacher Ratio: ", addLab = edDeter_merge$Student.to.teacher.ratio) %>%
+      addEdDeterShapes(df = edDeter_merge, fOp = 1, group = groups[3], fc = ~pal(INDEX_SCR), indLab = edDeter_merge$INDEX_SCR, addStr = "Student to Counselor Ratio: ", addLab = edDeter_merge$Student.to.Counselor.ratio) %>%
+      addEdDeterShapes(df = edDeter_merge, fOp = 1, group = groups[4], fc = ~pal(INDEX_Experience), indLab = edDeter_merge$INDEX_Experience, addStr = "% 1st and 2nd Year Teachers: ", addLab = edDeter_merge$X..1st.and.2nd.Year.Teachers) %>%
+      addEdDeterShapes(df = edDeter_merge, fOp = 1, group = groups[5], fc = ~pal(INDEX_TeacherSalary), indLab = edDeter_merge$INDEX_TeacherSalary, addStr = "Teacher Salary (pupil): ", addLab = edDeter_merge$Teacher.Salary..pupil.) %>%
+      addEdDeterShapes(df = edDeter_merge, fOp = 1, group = groups[6], fc = ~pal(INDEX_Title1), indLab = edDeter_merge$INDEX_Title1, addStr = "Number of Title 1 Schools: ", addLab = edDeter_merge$Number.of.Title.1.Schools) %>%
 
 
       # Adds the state borders inside your map, put as the last added Polygon
@@ -145,6 +145,7 @@ drawEdDeterMap <- function(){
                  lat=cityLat,
                  label=cityNames,
                  icon = circle_black,
+                 group = "Cities",
                  labelOptions = labelOptions(noHide = T,
                                              textsize = "12px",
                                              direction = "bottom")) %>%
@@ -154,6 +155,7 @@ drawEdDeterMap <- function(){
                  lat=cityLat2[1],
                  label=cityNames2[1],
                  icon = circle_black,
+                 group = "Cities",
                  labelOptions = labelOptions(noHide = T,
                                              textsize = "12px",
                                              direction = "top")) %>%
@@ -167,7 +169,7 @@ drawEdDeterMap <- function(){
                 na.label = "No Data",
                 labels = c(1,2,3,4,5)) %>%
 
-      addLayersControl(baseGroups = groups,
+      addLayersControl(baseGroups = groups, overlayGroups = "Cities",
                        position = "topleft", options = layersControlOptions(collapsed = F))
 
 

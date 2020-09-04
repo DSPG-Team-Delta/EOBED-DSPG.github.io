@@ -22,8 +22,10 @@ navbar:
               href: demoChgPage.html
             - text: "Median Income"
               href: medIncPage.html
-            - text: "Licensure"
-              href: licensurePage.html
+            - text: "Worker Flow"
+              href: workFlowPage.html
+        - text: "Licensure"
+          href: licensurePage.html
         - text: "Quality of Life"
           menu:
             - text: "QoL Main Page"
@@ -52,3 +54,11 @@ navbar:
               href: rnCostPage.html
             - text: "Home Ownership Rates"
               href: homeOwnPage.html
+        - text: "Data Tables"
+          menu:
+            - text: "DON'T CLICK - BROKEN LINK"
+              href: blank.html
+        - text: "Resources"
+          menu:
+            - text: "DON'T CLICK - BROKEN LINK"
+              href: blank.html

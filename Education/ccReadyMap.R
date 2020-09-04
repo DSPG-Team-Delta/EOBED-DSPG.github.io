@@ -25,12 +25,12 @@ library(rappdirs)
 library(sf)
 library(maptools)
 
-addCCRShapes <- function(map, df, group = NULL, fOp = 0.6, fc){
+addCCRShapes <- function(map, df, group = NULL, fOp = 0.6, fc, indLab, addStr, addLab){
    # Set up highlight label text (HTML formatting)
-   miLab <- paste("CCR Index: ",df$INDEX_Overall)
-   # moeLab <- paste("Margin of Error: ",as.numeric(df$povMOE),"%",sep = "")
+   myLab <- paste("Index: ",indLab)
+   myAddLab <- paste(addStr,addLab)
    labels <- sprintf(
-      "<strong>%s, %s County</strong></br>%s",df$NAME,df$County,miLab
+      "<strong>%s, %s County</strong></br>%s</br>%s",df$NAME,df$County,myLab,myAddLab
    )
    # Add Shapes to map
    addPolygons(map = map,
@@ -79,7 +79,7 @@ drawCCReadyMap <- function(){
    cityNames2 <- c("Ontario")
 
 
-   ccr <- read.csv("../Education/2015_District_Data_CCReady.csv", header = T)
+   ccr <<- read.csv("../Education/2015_District_Data_CCReady.csv", header = T)
    ccr$INDEX_Overall <- as.numeric(ccr$INDEX_Overall)
 
    myDistricts <- readCCRShapes()
@@ -89,6 +89,14 @@ drawCCReadyMap <- function(){
 
    ccr_merge <- geo_join(myDistricts, ccr, "GEOID","GEOID")
    ccr_merge$INDEX_Overall <- as.integer(ccr_merge$INDEX_Overall)
+   ccr_merge$AP_index <- as.integer(ccr_merge$AP_index)
+   ccr_merge$Gifted_index <- as.integer(ccr_merge$Gifted_index)
+   ccr_merge$Dual_index <- as.integer(ccr_merge$Dual_index)
+   ccr_merge$IB_index <- as.integer(ccr_merge$IB_index)
+   ccr_merge$Calc_index <- as.integer(ccr_merge$Calc_index)
+   ccr_merge$Chem_index <- as.integer(ccr_merge$Chem_index)
+   ccr_merge$Physics_index <- as.integer(ccr_merge$Physics_index)
+   
 
    myDomain <- as.integer(c(1,2,3,4,5))
 
@@ -104,13 +112,23 @@ drawCCReadyMap <- function(){
    # Custom Marker Icon
    circle_black <- makeIcon(iconUrl = "https://www.freeiconspng.com/uploads/black-circle-icon-23.png",
                             iconWidth = 12, iconHeight = 12)
+   
+   groups <- c("College and Career Readiness", "AP Classes", "Gifted and Talented Classes", "Dual Enrollment/Credit Recovery",
+               "IB Classes", "Calculus I", "Chemistry", "Physics")
 
    ccrMap <<- leaflet() %>%
 
       addProviderTiles("CartoDB.DarkMatter") %>%
 
-      addCCRShapes(df = ccr_merge, fOp = 1, fc = ~pal(INDEX_Overall)) %>%
-
+      addCCRShapes(df = ccr_merge, fOp = 1, group = groups[1], fc = ~pal(INDEX_Overall), indLab = ccr_merge$INDEX_Overall, addStr = "Ranking Overall: ", addLab = ccr_merge$Overall.Ranking) %>%
+      addCCRShapes(df = ccr_merge, fOp = 1, group = groups[2], fc = ~pal(AP_index), indLab = ccr_merge$AP_index, addStr = "School that offers AP classes?: ", addLab = ccr_merge$School.that.offers.AP.classes.) %>%
+      addCCRShapes(df = ccr_merge, fOp = 1, group = groups[3], fc = ~pal(Gifted_index), indLab = ccr_merge$Gifted_index, addStr = "School that offers gifted and talented education?: ", addLab = ccr_merge$School.that.offers.gifted.and.talented.education.) %>%
+      addCCRShapes(df = ccr_merge, fOp = 1, group = groups[4], fc = ~pal(Dual_index), indLab = ccr_merge$Dual_index, addStr = "School that offers dual enrollment/credit recovery?: ", addLab = ccr_merge$School.that.offers.dual.enrollment.credit.recovery.) %>%
+      addCCRShapes(df = ccr_merge, fOp = 1, group = groups[5], fc = ~pal(IB_index), indLab = ccr_merge$IB_index, addStr = "School that offers IB curriculum?: ", addLab = ccr_merge$School.that.offers.IB.curriculum.) %>%
+      addCCRShapes(df = ccr_merge, fOp = 1, group = groups[6], fc = ~pal(Calc_index), indLab = ccr_merge$Calc_index, addStr = "School that offers Calculus 1?: ", addLab = ccr_merge$School.offers.Calculus.1.) %>%
+      addCCRShapes(df = ccr_merge, fOp = 1, group = groups[7], fc = ~pal(Chem_index), indLab = ccr_merge$Chem_index, addStr = "School that offers Chemistry?: ", addLab = ccr_merge$School.offers.Chemistry.) %>%
+      addCCRShapes(df = ccr_merge, fOp = 1, group = groups[8], fc = ~pal(Physics_index), indLab = ccr_merge$Physics_index, addStr = "School that offers Physics?: ", addLab = ccr_merge$School.offers.Physics.) %>%
+      
       # Adds the state borders inside your map, put as the last added Polygon
       # so it is drawn on top of the other shapes. You can play with the weight
       # to change the border thickness and the color to change border color.
@@ -136,6 +154,7 @@ drawCCReadyMap <- function(){
                  lat=cityLat,
                  label=cityNames,
                  icon = circle_black,
+                 group = "Cities",
                  labelOptions = labelOptions(noHide = T,
                                              textsize = "12px",
                                              direction = "bottom")) %>%
@@ -145,6 +164,7 @@ drawCCReadyMap <- function(){
                  lat=cityLat2[1],
                  label=cityNames2[1],
                  icon = circle_black,
+                 group = "Cities",
                  labelOptions = labelOptions(noHide = T,
                                              textsize = "12px",
                                              direction = "top")) %>%
@@ -156,7 +176,10 @@ drawCCReadyMap <- function(){
                 position = "bottomright",                 # Legend at bottom right
                 title = "College Career Readiness Index (2015)", # Legend Title
                 na.label = "No Data",
-                labels = c(1,2,3,4,5))
+                labels = c(1,2,3,4,5)) %>%
+      
+      addLayersControl(baseGroups = groups, overlayGroups = "Cities", 
+                       position = "topleft", options = layersControlOptions(collapsed = F))
 
 
    ccrMap

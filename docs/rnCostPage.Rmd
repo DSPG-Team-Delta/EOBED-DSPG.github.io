@@ -12,7 +12,7 @@ source("../Housing/Cost and affordability data/mortRN_cost_Data.R", local = knit
 
 ```
 
-```{r, echo=F}
+```{r, echo=F, fig.height=6,fig.width=10}
 ownerMap
 
 ```
@@ -23,7 +23,7 @@ source("../Housing/Cost and affordability data/renterRN_cost_Data.R", local = kn
 
 ```
 
-```{r, echo=F}
+```{r, echo=F, fig.height=6,fig.width=10}
 ownerMap
 
 ```
