@@ -12,7 +12,7 @@ source("../Median_Income/medianIncomeGraphics.R", local = knitr::knit_global())
 
 ```
 
-```{r, echo=F}
+```{r, echo=F, fig.height=6,fig.width=10}
 miMap
 
 ```
@@ -23,7 +23,7 @@ source("../Median_Income/family_Median_IncomeGr.R", local = knitr::knit_global()
 
 ```
 
-```{r, echo=F}
+```{r, echo=F, fig.height=6,fig.width=10}
 miMap
 
 ```

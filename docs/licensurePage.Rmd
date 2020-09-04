@@ -1,0 +1,15 @@
+---
+title: "Licensure"
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=F}
+df <- read.csv(file="../Licensure/Licensure_Table_2020.csv")
+df <- df[2:length(df),]
+```
+
+```{r, echo=F}
+knitr::kable(df, format = "pipe", padding = 0)
+```

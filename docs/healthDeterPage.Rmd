@@ -10,7 +10,7 @@ source("../Healthcare/Determinants_of_Health/healthDeterGraphics.R", local = kni
 
 ```
 
-```{r, echo=F}
+```{r, echo=F, fig.height=6,fig.width=10}
 healthDeterMap
 
 ```

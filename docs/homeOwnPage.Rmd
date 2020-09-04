@@ -6,25 +6,24 @@ title: "Home Ownership/Renter Rates"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Home Ownership
+## Home Ownership
 ```{r, include=F}
 source("../Housing/Homeownership/homeOwn.R", local = knitr::knit_global())
 
 ```
 
-{center}
-```{r, echo=F}
+```{r, echo=F, fig.height=6,fig.width=10}
 ownerMap
 
 ```
-{/center}
-### Renters
+
+## Renters
 ```{r, include=F}
 source("../Housing/Homeownership/renterData.R", local = knitr::knit_global())
 
 ```
 
-```{r, echo=F}
+```{r, echo=F, fig.height=6,fig.width=10}
 ownerMap
 
 ```

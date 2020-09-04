@@ -11,7 +11,7 @@ source("../Education/ccReadyMap.R", local = knitr::knit_global())
 
 ```
 
-```{r, echo=F}
+```{r, echo=F, fig.height=6,fig.width=10}
 ccrMap
 
 ```

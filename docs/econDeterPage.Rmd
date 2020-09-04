@@ -11,7 +11,7 @@ source("../Economics/Determinants of Economic Opportunity/econOpDeterGraphics.R"
 
 ```
 
-```{r, echo=F}
+```{r, echo=F, fig.height=6,fig.width=10}
 econOpDeterMap
 
 ```

@@ -11,7 +11,7 @@ source("../Healthcare/Healthcare_Outcomes_and_Quality/healthQualGraphics.R", loc
 
 ```
 
-```{r, echo=F}
+```{r, echo=F, fig.height=6,fig.width=10}
 healthQualMap
 
 ```

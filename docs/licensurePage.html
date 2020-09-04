@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Licensure</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Eastern Oregon Economic Development Project</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    General
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="genPage.html">General Main Page</a>
+    </li>
+    <li>
+      <a href="populationPage.html">Population</a>
+    </li>
+    <li>
+      <a href="povertyPage.html">Poverty</a>
+    </li>
+    <li>
+      <a href="unEmpPage.html">Unemployment</a>
+    </li>
+    <li>
+      <a href="demoChgPage.html">Demographics</a>
+    </li>
+    <li>
+      <a href="medIncPage.html">Median Income</a>
+    </li>
+    <li>
+      <a href="licensurePage.html">Licensure</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Quality of Life
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="qolPage.html">QoL Main Page</a>
+    </li>
+    <li>
+      <a href="healthDeterPage.html">Healthcare Determinants</a>
+    </li>
+    <li>
+      <a href="healthQualPage.html">Healthcare Outcomes</a>
+    </li>
+    <li>
+      <a href="edDeterPage.html">Education Determinants</a>
+    </li>
+    <li>
+      <a href="edOutcomePage.html">Education Outcomes</a>
+    </li>
+    <li>
+      <a href="ccrPage.html">College and Career Readiness</a>
+    </li>
+    <li>
+      <a href="econDeterPage.html">Determinants of Economic Opportunity</a>
+    </li>
+    <li>
+      <a href="econStatePage.html">State of Economic Wellbeing</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Housing
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="housingPage.html">Housing Main Page</a>
+    </li>
+    <li>
+      <a href="housingCostPage.html">Cost and Affordability</a>
+    </li>
+    <li>
+      <a href="rnCostPage.html">RN Cost and Affordability</a>
+    </li>
+    <li>
+      <a href="homeOwnPage.html">Home Ownership Rates</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Licensure</h1>
+
+</div>
+
+
+<table style="width:100%;">
+<colgroup>
+<col width="0%" />
+<col width="8%" />
+<col width="1%" />
+<col width="2%" />
+<col width="24%" />
+<col width="14%" />
+<col width="2%" />
+<col width="14%" />
+<col width="2%" />
+<col width="1%" />
+<col width="2%" />
+<col width="1%" />
+<col width="2%" />
+<col width="19%" />
+<col width="1%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="left">JOB_NAME</th>
+<th align="left">STATE</th>
+<th align="left">LICE_REG_CERT</th>
+<th align="left">EDREQ</th>
+<th align="left">TRAINHOURS</th>
+<th align="left">EXP</th>
+<th align="left">PROFESEXAM</th>
+<th align="left">RENEWALYEARS</th>
+<th align="left">CEREQ</th>
+<th align="left">ADDREQEXAM</th>
+<th align="left">COSTLIC</th>
+<th align="left">COSTRENEWAL</th>
+<th align="left">RECIPROCITY</th>
+<th align="left">MINAGE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">2</td>
+<td align="left">Certified Nursing Assistant</td>
+<td align="left">Idaho</td>
+<td align="left">Licensed</td>
+<td align="left">A specific amount of training is required (non-degree)</td>
+<td align="left">120</td>
+<td align="left">0</td>
+<td align="left">Yes, individuals must take an exam to attain licensure</td>
+<td align="left">2</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">29</td>
+<td align="left">0</td>
+<td align="left">State does have statutory language allowing reciprocity or endorsement agreements</td>
+<td align="left">0</td>
+</tr>
+<tr class="even">
+<td align="left">3</td>
+<td align="left">Certified Nursing Assistant</td>
+<td align="left">Oregon</td>
+<td align="left">Licensed</td>
+<td align="left">A specific amount of training is required (non-degree)</td>
+<td align="left">155</td>
+<td align="left">0</td>
+<td align="left">Yes, individuals must take an exam to attain licensure</td>
+<td align="left">2</td>
+<td align="left">8</td>
+<td align="left">1</td>
+<td align="left">166</td>
+<td align="left">60</td>
+<td align="left">State does have statutory language allowing reciprocity or endorsement agreements</td>
+<td align="left">0</td>
+</tr>
+<tr class="odd">
+<td align="left">4</td>
+<td align="left">Child, Family, and School Social Workers</td>
+<td align="left">Idaho</td>
+<td align="left">Licensed</td>
+<td align="left">A bachelor’s degree is required (from an accredited academic institution or similarly recognized institution)</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">Yes, individuals must take an exam to attain licensure</td>
+<td align="left">1</td>
+<td align="left">20</td>
+<td align="left">0</td>
+<td align="left">300</td>
+<td align="left">80</td>
+<td align="left">State does have statutory language allowing reciprocity or endorsement agreements</td>
+<td align="left">0</td>
+</tr>
+<tr class="even">
+<td align="left">5</td>
+<td align="left">Child, Family, and School Social Workers</td>
+<td align="left">Oregon</td>
+<td align="left">Licensed</td>
+<td align="left">A bachelor’s degree is required (from an accredited academic institution or similarly recognized institution)</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">Yes, individuals must take an exam to attain licensure</td>
+<td align="left">2</td>
+<td align="left">20</td>
+<td align="left">1</td>
+<td align="left">380</td>
+<td align="left">110</td>
+<td align="left">State does have statutory language allowing reciprocity or endorsement agreements</td>
+<td align="left">0</td>
+</tr>
+<tr class="odd">
+<td align="left">6</td>
+<td align="left">Dental Hygentist</td>
+<td align="left">Idaho</td>
+<td align="left">Licensed</td>
+<td align="left">An associate degree is required (from an accredited academic institution or similarly recognized institution)</td>
+<td align="left">Accredited Dental Hygienist School</td>
+<td align="left">0</td>
+<td align="left">Yes, individuals must take an exam to attain licensure</td>
+<td align="left">2</td>
+<td align="left">24</td>
+<td align="left">1</td>
+<td align="left">1625</td>
+<td align="left">175</td>
+<td align="left">State does have statutory language allowing reciprocity or endorsement agreements</td>
+<td align="left">0</td>
+</tr>
+<tr class="even">
+<td align="left">7</td>
+<td align="left">Dental Hygentist</td>
+<td align="left">Oregon</td>
+<td align="left">Licensed</td>
+<td align="left">An associate degree is required (from an accredited academic institution or similarly recognized institution)</td>
+<td align="left">Accredited Dental Hygienist School</td>
+<td align="left">0</td>
+<td align="left">Yes, individuals must take an exam to attain licensure</td>
+<td align="left">2</td>
+<td align="left">24</td>
+<td align="left">2</td>
+<td align="left">1710</td>
+<td align="left">230</td>
+<td align="left">State does have statutory language allowing reciprocity or endorsement agreements</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">8</td>
+<td align="left">Electrician</td>
+<td align="left">Idaho</td>
+<td align="left">Licensed</td>
+<td align="left">A specific amount of training is required (non-degree)</td>
+<td align="left">Approved coursework that is roughly 25% of the 4 year requirement</td>
+<td align="left">4 years</td>
+<td align="left">Yes, individuals must take an exam to attain licensure</td>
+<td align="left">3</td>
+<td align="left">24</td>
+<td align="left">0</td>
+<td align="left">70</td>
+<td align="left">55</td>
+<td align="left">State does have statutory language allowing reciprocity or endorsement agreements</td>
+<td align="left">0</td>
+</tr>
+<tr class="even">
+<td align="left">9</td>
+<td align="left">Electrician</td>
+<td align="left">Oregon</td>
+<td align="left">Licensed</td>
+<td align="left">No education is required for licensure</td>
+<td align="left">0</td>
+<td align="left">8000 hours</td>
+<td align="left">Yes, individuals must take an exam to attain licensure</td>
+<td align="left">3</td>
+<td align="left">72</td>
+<td align="left">0</td>
+<td align="left">100</td>
+<td align="left">100</td>
+<td align="left">State does have statutory language allowing reciprocity or endorsement agreements</td>
+<td align="left">0</td>
+</tr>
+<tr class="odd">
+<td align="left">10</td>
+<td align="left">Emergency Medical Technicians (EMT)</td>
+<td align="left">Idaho</td>
+<td align="left">Licensed</td>
+<td align="left">A specific amount of training is required (non-degree)</td>
+<td align="left">190</td>
+<td align="left">0</td>
+<td align="left">Yes, individuals must take an exam to attain licensure</td>
+<td align="left">2</td>
+<td align="left">48</td>
+<td align="left">1</td>
+<td align="left">180</td>
+<td align="left">15</td>
+<td align="left">State does have statutory language allowing reciprocity or endorsement agreements</td>
+<td align="left">18</td>
+</tr>
+<tr class="even">
+<td align="left">11</td>
+<td align="left">Emergency Medical Technicians (EMT)</td>
+<td align="left">Oregon</td>
+<td align="left">Licensed</td>
+<td align="left">A specific amount of training is required (non-degree)</td>
+<td align="left">Approved EMT training program. No hours specified</td>
+<td align="left">0</td>
+<td align="left">Yes, individuals must take an exam to attain licensure</td>
+<td align="left">2</td>
+<td align="left">40</td>
+<td align="left">1</td>
+<td align="left">125</td>
+<td align="left">15</td>
+<td align="left">State does not have statutory language allowing reciprocity or endorsement agreements</td>
+<td align="left">18</td>
+</tr>
+<tr class="odd">
+<td align="left">12</td>
+<td align="left">General Contractor</td>
+<td align="left">Idaho</td>
+<td align="left">Licensed</td>
+<td align="left">No education is required for licensure</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">No, individuals do not have to take an exam to attain licensure</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">200</td>
+<td align="left">35</td>
+<td align="left">State does not have statutory language allowing reciprocity or endorsement agreements</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">13</td>
+<td align="left">General Contractor</td>
+<td align="left">Oregon</td>
+<td align="left">Licensed</td>
+<td align="left">A specific amount of training is required (non-degree)</td>
+<td align="left">16</td>
+<td align="left">6 years</td>
+<td align="left">Yes, individuals must take an exam to attain licensure</td>
+<td align="left">2</td>
+<td align="left">40</td>
+<td align="left">1</td>
+<td align="left">485</td>
+<td align="left">250</td>
+<td align="left">State does not have statutory language allowing reciprocity or endorsement agreements</td>
+<td align="left">18</td>
+</tr>
+<tr class="odd">
+<td align="left">14</td>
+<td align="left">Licensed Practical Nurses (LPN)</td>
+<td align="left">Idaho</td>
+<td align="left">Licensed</td>
+<td align="left">An associate degree is required (from an accredited academic institution or similarly recognized institution)</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">Yes, individuals must take an exam to attain licensure</td>
+<td align="left">2</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="left">350</td>
+<td align="left">100</td>
+<td align="left">State does have statutory language allowing reciprocity or endorsement agreements</td>
+<td align="left">0</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

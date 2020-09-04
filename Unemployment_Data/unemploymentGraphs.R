@@ -27,9 +27,9 @@ addLine <- function(df, clr, siz=0.3, Area){
 }
 createUnemploymentPlt <- function(){
 # Read file names from directories
-OR_tmp <- list.files(path="Unemployment_Data/OR_unemploymentData/",pattern="*.xlsx",full.names = TRUE)
-ID_tmp <- list.files(path="Unemployment_Data/ID_unemploymentData/",pattern="*.xlsx",full.names = TRUE)
-malheur <- read_excel("Unemployment_Data/Malheur OR Unemployment.xlsx", skip = 10)
+OR_tmp <- list.files(path="../Unemployment_Data/OR_unemploymentData/",pattern="*.xlsx",full.names = TRUE)
+ID_tmp <- list.files(path="../Unemployment_Data/ID_unemploymentData/",pattern="*.xlsx",full.names = TRUE)
+malheur <- read_excel("../Unemployment_Data/Malheur OR Unemployment.xlsx", skip = 10)
 
 # Read excel files from list of file names
 OrData <- sapply(OR_tmp, read_excel, skip=10,simplify = FALSE)
@@ -58,7 +58,7 @@ malheur$date <- paste(malheur$Period, malheur$Year, "01")
 malheur$date <- as.Date(malheur$date, "%b %Y %d")
 
 # Create formatted Plot
-p <- ggplot() + 
+p <<- ggplot() + 
   # Add lines for every OR county (not Malheur)
   sapply(OrData, addLine, clr="gray", Area="Oregon Counties") +
   

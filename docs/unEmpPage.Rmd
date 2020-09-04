@@ -1,0 +1,17 @@
+---
+title: "Unemployment"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=F}
+source("../Unemployment_Data/unemploymentGraphs.R", local = knitr::knit_global())
+
+```
+
+```{r, echo=F, fig.height=6,fig.width=12}
+p
+
+```
