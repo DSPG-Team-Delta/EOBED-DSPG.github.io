@@ -6,13 +6,6 @@ title: "Housing Costs"
 knitr::opts_chunk$set(echo = F)
 ```
 
-| County                   | Monthly Rent | Monthly HOC | Median Household Income | Registered Nurse Income | Percent Inc on Rent | Percent Inc on Home Ownership | RN Income on Rent | RN Income on Home Ownership | MOE_Rent | MOE_HOC | MOE_MedianHH |
-|--------------------------|--------------|-------------|-------------------------|-------------------------|---------------------|-------------------------------|-------------------|-----------------------------|----------|---------|--------------|
-| Canyon County, Idaho     | 10152        | 10968       | 49143                   | 62,890                  | 20.65807948         | 22.31853977                   | 16.14247098       | 17.43997456                 | 240      | 228     | 1598         |
-| Payette County, Idaho    | 8916         | 10284       | 50289                   | 62,890                  | 17.72952336         | 20.44980016                   | 14.17713468       | 16.35236127                 | 780      | 804     | 3560         |
-| Washington County, Idaho | 8052         | 7344        | 37206                   | 62,890                  | 21.6416707          | 19.73875181                   | 12.80330736       | 11.6775322                  | 480      | 636     | 3857         |
-| Malheur County, Oregon   | 7968         | 8820        | 42478                   | 74,900                  | 18.75794529         | 20.76368944                   | 10.63818425       | 11.77570093                 | 312      | 1104    | 3046         |
-
 ## Mortgage Costs
 ```{r, include=F}
 source("../Housing/Cost and affordability data/mortgage_cost_Data.R", local = knitr::knit_global())
