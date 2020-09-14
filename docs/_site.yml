@@ -12,16 +12,12 @@ navbar:
           menu:
             - text: "General Main Page"
               href: genPage.html
-            - text: "Population"
+            - text: "Population and Race"
               href: populationPage.html
             - text: "Poverty"
               href: povertyPage.html
-            - text: "Unemployment"
+            - text: "Median Income and Unemployment"
               href: unEmpPage.html
-            - text: "Demographics"
-              href: demoChgPage.html
-            - text: "Median Income"
-              href: medIncPage.html
             - text: "Worker Flow"
               href: workFlowPage.html
         - text: "Licensure"
