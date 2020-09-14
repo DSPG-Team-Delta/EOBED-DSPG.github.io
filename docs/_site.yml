@@ -9,6 +9,7 @@ navbar:
         - text: "Home"
           href: index.html
         - text: "General"
+          href: genPage.html
           menu:
             - text: "General Main Page"
               href: genPage.html
