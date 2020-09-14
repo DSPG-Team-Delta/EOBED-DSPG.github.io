@@ -14,4 +14,4 @@ Overall, we find ....
 
 
 <p style="text-align:right">
-<a href="https://eobed-dspg.github.io/populationPage.html">Population >> </a></p>
+<a href="https://eobed-dspg.github.io/populationPage.html">Population and Race >> </a></p>
