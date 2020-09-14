@@ -1,10 +1,39 @@
----
-title: "Oregon State University DSPG Team Delta"
----
+
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = F)
 ```
 
-## Heading for About Section (Separate from above tabs)
-To-do: Placeholder About Section. General DSPG information and group bios perhaps?
+#  
+# 
+#
+
+# 
+# 
+#
+# 
+# 
+#
+
+<center>
+
+
+<img src="C:/Users/thama/Downloads/EOBED-DSPG.github.io-master/Banner_Image_5000x833.jpg">
+
+
+### Barriers to Economic Opportunity in the Eastern Oregon Border Region
+#
+#
+<center>
+#### Data Science for the Public Good 
+#### Oregon State University
+#### Stakeholder: Eastern Oregon Border Economic Development Region Board
+#
+#
+#
+#
+#
+<center>
+###### Last updated: September 2020
+
+</center>
