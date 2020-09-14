@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = F)
 <center>
 
 
-<img src="Banner_Image_5000x833.jpg">
+<img src="https://raw.githubusercontent.com/EOBED-DSPG/EOBED-DSPG.github.io/master/Banner_Image_5000x833.jpg">
 
 
 ### Barriers to Economic Opportunity in the Eastern Oregon Border Region
