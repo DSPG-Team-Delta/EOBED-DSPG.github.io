@@ -13,7 +13,7 @@ navbar:
           menu:
             - text: "General Main Page"
               href: genPage.html
-            - text: "Population and Race"
+            - text: "Population"
               href: populationPage.html
             - text: "Poverty"
               href: povertyPage.html
