@@ -10,6 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../Population_Map/population_Map.R", local = knitr::knit_global())
 
 ```
+The population in Malheur county is 30,431 in 2018 (United States Census Bureau, American Community Survey), 30 percent higher than the population of Payette (23,401). Washington County has a much smaller population of 10,025. Canyon county has a significantly larger population of 212,230, attracting families who choose to live closer to the Boise metro area. While the population in  Washington and Payette county has slightly increased in recent years, Malheur county has seen a slight decline in its overall population between 2010 and 2018. The Census tract that includes the city of Ontario saw a population decrease of 6 percent between 2010 and 2018, while the Census tract that includes Fruitland saw an increase of 4 percent. Tracts just outside Ontario saw a population increase of 4 percent and 6 percent. Anectodely, stakeholders believe that preferences for ranchette homes are responsible for the growth in less populated areas outside Ontario and to Fruitland.
+
+Stakeholders also believe that Malheur is experiencing the “white flight” phenomenon, with middle class white families fleeing the county for cities like Fruitland. While the data collected by the Census Beureau at the tract and county level do not allow us to observe the movement of families between the two regions, we are able to observe the racial composition of the two counties between 2010 and 2018. In this time period Malheur county saw an increase of 5.2 percent in 
 
 ```{r, echo=F, fig.height=6,fig.width=10}
 populationMap
