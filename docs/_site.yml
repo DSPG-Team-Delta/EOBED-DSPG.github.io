@@ -9,15 +9,16 @@ navbar:
         - text: "Home"
           href: index.html
         - text: "General"
-          href: genPage.html
           menu:
-            - text: "General Main Page"
+            - text: "Overview: General"
               href: genPage.html
             - text: "Population"
               href: populationPage.html
+            - text: "Race"
+              href: demoChgPage.html
             - text: "Poverty"
               href: povertyPage.html
-            - text: "Median Income and Unemployment"
+            - text: "Median Income & Unemployment"
               href: unEmpPage.html
             - text: "Worker Flow"
               href: workFlowPage.html
@@ -25,7 +26,7 @@ navbar:
           href: licensurePage.html
         - text: "Quality of Life"
           menu:
-            - text: "QoL Main Page"
+            - text: "Overview: Quality of Life"
               href: qolPage.html
             - text: "Healthcare Determinants"
               href: healthDeterPage.html
@@ -43,7 +44,7 @@ navbar:
               href: econStatePage.html
         - text: "Housing"
           menu:
-            - text: "Housing Main Page"
+            - text: "Overview: Housing"
               href: housingPage.html
             - text: "Cost and Affordability"
               href: housingCostPage.html

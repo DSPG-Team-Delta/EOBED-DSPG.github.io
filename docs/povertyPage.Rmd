@@ -1,5 +1,5 @@
 ---
-title: "Poverty"
+title: "Economic Indicators: Poverty"
 ---
 
 ```{r setup, include=FALSE}
@@ -11,8 +11,32 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../Poverty_Data/povertyGraphics.R", local = knitr::knit_global())
 
 ```
+<a href="#map">Jump to the map</a>
 
+
+One of the main concerns raised by stakeholders was the changes in population that might be driven by underlying economic disparities in the region. Some of these disparities, such as the differences in poverty rates, are particularly stark. 
+
+In 2012 (the earliest year for which poverty data is available), the poverty rate in Malheur County was 25 percent. In comparison, the poverty rate in Canyon County (19.6 percent), Payette County (19.2 percent), and Washington County (14.8 percent) was much lower. Note that the state poverty rate in Oregon and Idaho was 15.1 percent and 15.5 percent, respectively.  Over the next six years, poverty rates in the region decreased, but Malheur saw the smallest decline. The poverty rate in Malheur County only reduced by 2 percentage points between 2012 and 2018, while Payette County saw a nearly 6 percentage point drop. 
+
+Further disaggregating the data by tract helps us identify which parts of the counties might be driving the overall poverty rate. In 2012, the Census tract that included the city of Nampa in Idaho had the highest poverty rate in the region (49 percent). Unfortunately, the tract that includes Ontario performed just as poorly on this measure with a poverty rate of 47.4 percent. In stark contrast, the Fruitland tract had a poverty rate of 12.7. In 2018, this disparity still existed, though the gap was beginning to close. In 2018, 35.5 percent of those who lived in the Ontario tract lived at or below the poverty level. In comparison, the poverty rate remained approximately the same in the Fruitland tract (13 percent). 
+
+As before, we cannot tell what is driving the changes in poverty rates without additional information about the movement of labor, people, and jobs.
+
+<font color="orange">How is poverty measured:</font> The data we use in this section comes from the United States Census Bureau. The Census uses two primary measures of poverty: one considers only income while the other includes supplemental income and cash benefits. In this section we use the first measure. 
+
+<div id="map">
 ```{r, echo=F, fig.height=6,fig.width=10}
 povertyMap
 
 ```
+</div>
+#
+#
+Data Source: U.S. Census Bureau (2012-2018), American Community Survey, 5-year estimates.
+#
+#
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/unEmpPage.html">  Economic Indicators: Median Income, and Unemployment >> </a></p>
+
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/genPage,html"> << Back to General Main </a></p>
