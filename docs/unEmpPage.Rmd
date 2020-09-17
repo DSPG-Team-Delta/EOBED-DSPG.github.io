@@ -1,9 +1,9 @@
 ---
-title: "Unemployment"
+title: "Economic Indicators: Median Income & Unemployment"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r, include=F}
@@ -11,7 +11,67 @@ source("../Unemployment_Data/unemploymentGraphs.R", local = knitr::knit_global()
 
 ```
 
+#
+#
+#
+Poverty is one measure of economic outcomes. Another set of measures are median income and unemployment. Despite high levels of poverty, the unemployment rate is relatively similar across the region. See the chart below. There are periods where Malheur has the highest unemployment rate of the four counties. However, the disparity between the four counties isn’t large, and the region as a whole has a lower unemployment rate compared to most other counties in Oregon (U.S. Bureau of Labor Statistics, Local Area Unemployment Statistics, January 2010-May 2020). The unemployment rate in Malheur County in January 2010 was 11.2 percent, the lowest of the four counties. The unemployment rates in Payette, Canyon, and Washington were 11.7 percent, 13 percent, and 12.1 percent. At that time, many parts of the country, especially rural areas, were still recovering from the 2008 economic downturn. By January 2020, the unemployment rate in Malheur had dropped to 4.6 percent. Payette County’s unemployment rate had also dropped to 4.2 percent. 
+
+#
+#
 ```{r, echo=F, fig.height=6,fig.width=12}
 p
 
 ```
+##### Data Source: U.S. Bureau of Labor Statistics, Local Area Unemployment Statistics (January 2010-May 2020)
+
+
+Next, we look at the median income. In 2010, Malheur County had a median individual income of $21960 (2018 dollars, all dollars values in this section are adjusted) while Payette County had a higher median income of $25507. Between 2010 and 2018, individual income decreased by 2 percent in Malheur County and increased by less than 1 percent in Payette County. Both counties saw a decrease in median household income. Household income decreased by 11 percent in Malheur ($46973 to $42478)and by 4 percent in Payette ($52270 to $50289). 
+
+To understand what might be driving this outcome, we disaggregate the data by tract. In the Ontario tract, individual and household income rose by approximately 22 percent. While the increase in the Ontario tract is significant, the median income itself is still lower than the county median income. In 2018, the median individual income was $19233 and the median household income was $31900, both of which are significantly lower than the county medians. The tracts just outside the city of Ontario experienced minimal increases or large decreases in median income. For example, the tract to the northeast of Ontario saw a 23 percent reduction in individual income and 22 percent in household income. It appears that those living in the more sparsely populated parts of Malheur County earn less in comparison to their counterparts near Ontario. 
+
+#
+#
+
+<CENTER> <font color="orange"> Individual Median Income </center> </font>
+```{r, include=F}
+source("../Median_Income/medianIncomeGraphics.R", local = knitr::knit_global())
+
+```
+#
+```{r, echo=F, fig.height=6,fig.width=10}
+miMap
+
+```
+<h6>Data Source: U.S. Census Bureau (2010-2018), American Community Survey, 5-year estimates.</h6>
+
+
+
+Finally, the Fruitland tract saw a 6 percent decrease in individual income and a negligible increase in household income. Despite the lack of growth, the median individual and household income in the Fruitland tract in 2018 were higher than the median incomes in Ontario. Individual income in Frtuiland was $25012 in Fruitland compared to $19233 in Ontario, and the household income was $49829 compares to $31900 in Ontario. We would expect this trend given what we observed in the poverty data.
+
+#
+#
+<center> <font color="orange"> Family Median Income </center></font>
+```{r, include=F}
+source("../Median_Income/family_Median_IncomeGr.R", local = knitr::knit_global())
+
+```
+
+```{r, echo=F, fig.height=6,fig.width=10}
+miMap
+
+```
+<h6>Data Source: U.S. Census Bureau (2010-2018), American Community Survey, 5-year estimates.</h6>
+
+#
+#
+
+<font color="orange">How is median income adjusted?: </font> To compare income over time, we adjust median income using the Consumer Price Index for All Urban Consumers (CPI-U). By adjusting income by the CPI-U, we can compare the consumption value of a dollar over time. While this adjustment is not perfect for all rural consumers, it is a more accurate representation of the value of a dollar earned than the unadjusted value of the 2010 dollar. 
+
+#
+#
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/IndandOcc.html"> Industries and Occupations >> </a></p>
+#
+#
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/genPage,html"> << Back to General Main </a></p>

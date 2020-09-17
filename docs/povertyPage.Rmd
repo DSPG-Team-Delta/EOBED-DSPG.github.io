@@ -24,19 +24,21 @@ As before, we cannot tell what is driving the changes in poverty rates without a
 
 <font color="orange">How is poverty measured:</font> The data we use in this section comes from the United States Census Bureau. The Census uses two primary measures of poverty: one considers only income while the other includes supplemental income and cash benefits. In this section we use the first measure. 
 
+
+
 <div id="map">
 ```{r, echo=F, fig.height=6,fig.width=10}
 povertyMap
 
 ```
 </div>
-#
-#
-Data Source: U.S. Census Bureau (2012-2018), American Community Survey, 5-year estimates.
+
+<h6>Data Source: U.S. Census Bureau (2012-2018), American Community Survey, 5-year estimates.</h6>
+
 #
 #
 <p style="text-align:right">
-<a href="https://eobed-dspg.github.io/unEmpPage.html">  Economic Indicators: Median Income, and Unemployment >> </a></p>
+<a href="https://eobed-dspg.github.io/unEmpPage.html"> Economic Indicators: Median Income and Unemployment >> </a></p>
 
 <p style="text-align:right">
 <a href="https://eobed-dspg.github.io/genPage,html"> << Back to General Main </a></p>

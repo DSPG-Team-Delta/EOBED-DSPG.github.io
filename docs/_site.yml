@@ -4,7 +4,7 @@ output:
     html_document:
         theme: darkly
 navbar:
-    title: "Eastern Oregon Economic Development Project"
+    title: "EOBED+Data Science for the Public Good"
     left:
         - text: "Home"
           href: index.html
@@ -18,10 +18,14 @@ navbar:
               href: demoChgPage.html
             - text: "Poverty"
               href: povertyPage.html
-            - text: "Median Income & Unemployment"
+            - text: Income & Unemployment
               href: unEmpPage.html
+            - text: "Industries & Occupation"
+              href: IndandOcc.html
             - text: "Worker Flow"
               href: workFlowPage.html
+            - text: "Resources"
+              href: ResourcesQ.html
         - text: "Licensure"
           href: licensurePage.html
         - text: "Quality of Life"
@@ -42,6 +46,8 @@ navbar:
               href: econDeterPage.html
             - text: "State of Economic Wellbeing"
               href: econStatePage.html
+            - text: "Resources"
+              href: ResourcesQoL.html
         - text: "Housing"
           menu:
             - text: "Overview: Housing"
@@ -52,11 +58,11 @@ navbar:
               href: rnCostPage.html
             - text: "Home Ownership Rates"
               href: homeOwnPage.html
+            - text: "Resources"
+              href: ResourcesH.html
         - text: "Data Tables"
           menu:
             - text: "DON'T CLICK - BROKEN LINK"
               href: blank.html
-        - text: "Resources"
-          menu:
-            - text: "DON'T CLICK - BROKEN LINK"
-              href: blank.html
+        - text: "Methods & Data"
+          href: methods.html
