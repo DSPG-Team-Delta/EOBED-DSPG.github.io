@@ -17,3 +17,11 @@ Payette County is also home to several manufacturing establishments. Like Malheu
 
 
 <font color = "orange">What jobs do people have?</font> The data available at the county level does not give us detailed data about occupations. However, data from the American Community Survey does give us a sense of the types of jobs individuals have. The majority of individuals in Malheur county work in management, business, and financial occupations (12.7 percent). Jobs that fall under this category include managers, CEOs, directors, human resources workers, accountants, insurance underwriters, for example (see <a href="https://www2.census.gov/programs-surveys/cps/methodology/Occupation%20Codes.pdf"> this source </a> for more). The second most common jobs are office administration and support roles (11.3 percent), followed by production occupations (8.4 percent). Production occupation jobs are primarily manufacturing jobs, including food processing. Payette County’s top occupation groups are sales occupations, office administration and support, and production occupations. 
+
+#
+#
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/workFlowPage.html">Worker Flows >> </a></p>
+
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/genPage,html"> << Back to General Main </a></p>
