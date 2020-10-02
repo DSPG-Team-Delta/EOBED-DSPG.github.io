@@ -22,11 +22,11 @@ knitr::opts_chunk$set(echo = F)
 
 **THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
 
-
+</center>
 #
 #
 
-
+<center>
 ### Barriers to Economic Opportunity in the Eastern Oregon Border Region
 #
 #
@@ -39,7 +39,7 @@ knitr::opts_chunk$set(echo = F)
 #
 #
 #
-<center>
+</center>
 
 #
 #
