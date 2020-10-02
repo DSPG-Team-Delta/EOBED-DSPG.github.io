@@ -10,8 +10,88 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../Economics/Determinants of Economic Opportunity/econOpDeterGraphics.R", local = knitr::knit_global())
 
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
 
+#
+#
+
+<a href="#map">Jump to the map</a>
+
+
+This index give us a sense of how the various tracts in the region perform on key determinants of economic opportunity. The index is comprised of the following indicators:
+
+* <a href="#ADH"> Associate's Degree or Higher </a>
+* <a href="#HAFF"> Housing Affordability </a>
+* <a href="#LINGISO"> Linguistic Isolation </a>
+* <a href="#BROAD"> Broadband Access </a>
+
+Overall, the Malheur County tracts are found in the bottom three quintiles, in large part because of broadband access and educational attainment. The central Ontario tract does particularly poorly on this measure, while the Fruitland, Payette, and Ontario adjacent tracts perform in the top two and three quintiles. 
+
+<div id="ADH"></div>
+
+#
+#
+
+*Associate's Degree or Higher*
+
+<div id="HAFF"></div>
+Access to education is an important determinant of economic outcomes. An individual's level of education can determine their occupation and income. In areas like Malheur County, having an associate's degree can create opportunities for employmet in healthcare, agriculture, education, animal sciences, and construction. Stakeholders also identify local efforts to increase dual enrollment for high school students, some of which would put students on a path to at least gain certification or an associate’s degree. Using data from the Census (ACS, 5-year estimates) for 2018 we look at how educational attainment varies across the region for those over the age of 25. 
+
+
+
+#
+#
+
+*Housing Affordability*
+
+
+Access to affordable housing is an important determinant of economic opportunity. Housing insecurity can be a significant barrier to gaining and retaining gainful employment (Axe et al., 2020; Brown et al., 2019; Desmond & Gershenson, 2016; Poremski et al., 2016; Shaheen & Rio, 2007; Shier et al., 2012). Overall, the region is equally affordable, and no tract is substantially more expensive to live in than any other for renters or home owners. 
+<div id="LINGISO"></div>
+See Housing Cost for more
+
+
+
+#
+#
+
+*Linguistic Isolation*
+
+
+We consider a household to be linguistically isolated if the household does not speak English well or does not speak English at all. When a household is linguistically isolated and does not have access to language resources, they can struggle to find and keep jobs, access benefits, access healthcare, and build social and human capital (Bleakley & Chin, 2004; Chiswick & Miller, 1995; Dustmann, 1994; McManus et al., 1983; Nawyn et al., 2012; Trejo, 1997; Tumlin, 2003). Often, to provide opportunities to linguistically isolated families, communities will provide language services, establish cultural resource centers, and develop other resources to improve outcomes for those who face a language barrier. In and of itself, having a large linguistically isolated community is not necessarily a bad thing. However, if the needs of that community are not met, there can be economic repercussions. We use data from the American Community Survey (US Census, 5-year estimates) for 2018. 
+
+There appear to be small pockets of linguistically isolated in the region, but the majority of households in the region speak English proficiently. Less than one percent of households in tracts near the Boise metro area, for example, are linguistically isolated. In addition, the westernmost tract in Washington has no linguistically isolated households. 
+<div id="BROAD"></div>
+Of the small pockets of linguistically isolated households, the most significant share is found in tracts in Canyon County. Approximately 10 percent of households are linguistically isolated in some tracts in Canyon County. In addition, the Census tract that includes Nyssa is one of the most linguistically isolated in the region, with 7.6 percent of households being linguistically isolated. The tracts adjacent to Ontario also experience higher levels of linguistic isolation. Approximately 6 percent of households in those tracts do not speak English well or at all. Finally, the central Ontario tract and the Fruitland tract have a similar share of linguistically isolated households (3.8 percent), placing both areas in the bottom 40 percent of tracts. 
+
+
+
+#
+#
+
+*Broadband Access*
+
+
+Broadband access is a crucial determinant of economic opportunity and success in rural areas. Rural areas are often far from many resources that are easily accessible to their urban counterparts. These resources can include other businesses that local businesses work with or doctors and medical specialists that residents might need access to. Students also use broadband internet to access educational tools. With the worldwide COVID-19 pandemic, broadband internet has only become more critical. We include broadband internet access for this reason. While data regarding broadband access is difficult to find at the tract level, we can use Census data to determine what share of households has a broadband internet subscription (DSL, fiber optics, or satellite). We use data from the American Community Survey (US Census, 5-year estimates) for 2018. 
+
+In the central Ontario tract, only 47 percent of households had a broadband subscription. While this tract was not the poorest performing tract in the region (Nampa and Weiser tracts did worse on this measure), it places Ontario in the bottom quintile of tracts. In comparison, 69.8 percent of households in Fruitland have broadband internet subscriptions placing it in the top 40 percent of tracts in the region on this measure.
+
+Increasing broadband access should be a primary goal for the Board. However, as we've seen in other parts of this report, publicly available data does not tell us why subscription rates are so low in certain areas. Collecting additional data on why individuals have such low levels of internet subscriptions in the Ontario area would be an ideal place to begin exploring how to best tackle broadband access. 
+
+<div id="map">
 ```{r, echo=F, fig.height=6,fig.width=10}
 econOpDeterMap
 
 ```
+
+</div>
+
+
+#
+#
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/edDeterPage.html"> Educational Success and Economic Opportunity Determinants >> </a></p>
+
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/qolPage.html"> << Back to QoL Main </a></p>

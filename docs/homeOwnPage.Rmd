@@ -1,29 +1,37 @@
 ---
-title: "Home Ownership/Renter Rates"
+title: "Housing in Malheur and Payette Counties"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Home Ownership
-```{r, include=F}
-source("../Housing/Homeownership/homeOwn.R", local = knitr::knit_global())
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
 
-```
+#
+#
 
-```{r, echo=F, fig.height=6,fig.width=10}
-ownerMap
+The picture of housing in Malheur County, as painted by stakeholders, is a bleak one. Homes in Malheur are older, falling apart, and not attractive to prospective new homeowners. Developers do not build in Malheur because of challenging land-use laws in Oregon and the high cost of construction in Oregon. On the Payette side, however, things are very different. When one crosses over into Payette County, they will immediately see new constructions up to the Oregon border. These homes are larger and are built recently by developers who get incentives to build in Idaho and who can convert agricultural land easily.
 
-```
+To explore this concern, we used data from the Malheur County Assessor’s Office and the Payette County Assessor’s Office to look at the age, size, and number of constructions in Malheur County and Payette County. The peak period of construction in Malheur County occurred in the late 1970s with a general declining trend after that point. The observed trends reflect stakeholder impressions that the late 1970s to early 1980s were considered the “golden age.” Since then, they feel that Malheur County’s growth slowed down while Payette County has grown quickly. These trends reflect a lack of modern housing and that majority of construction being decades old. In contrast, Payette County shows the opposite trend with the construction count steadily increasing from 1980.
 
-## Renters
-```{r, include=F}
-source("../Housing/Homeownership/renterData.R", local = knitr::knit_global())
+In the past decade, Malheur’s annual residential construction counts range from about 6 to 40, while Payette County ranges from about 30 to 200 new constructions. Although Payette has seen occasional dips year to year, the overall trend is steadily increasing. Payette also has a more significant number of total commercial lots, but almost no counts in agricultural construction. 
 
-```
+We then consider the distribution of construction by zone codes. In Malheur County, most of the tax lots are farm or single-family home codes. The most common across all construction was single-family residential buildings, representing 33 percent of all construction (about 1100 lots). When only considering residential lots, single-family homes accounted for 50 percent of lots, duplex made up 20 percent, high-density buildings made up 10 percent, and the rest were variations of these designated explicitly to specific cities like Vale or Nyssa. This data was important because stakeholders had expressed concerns that there is not enough workforce housing, such as single-person homes or apartments for middle-income households. A lack of affordable housing targeted at these people can also discourage new and young individuals from becoming integrated into the Malheur community. 
 
-```{r, echo=F, fig.height=6,fig.width=10}
-ownerMap
+Finally, we consider the distribution of homes by lot size and square feet. When filtering for only residential buildings, most houses in Malheur were between 1000 to 2000 square feet. Payette County also has many homes in this size range but had a much larger proportion of over 2000 square feet. This trend also is found when examining the lot sizes. Payette County has significantly more large lot homes than Malheur County. Approximately 50 to 100 homes in Payette County were in the 100,000 to 300,000 square feet range, which is much rarer in Malheur County. 
 
-```
+Once again, we cannot say with certainty the extent to which larger and newer homes drive the decision to locate in Payette County. However, the data does suggest that there is a stark difference in construction between the two regions. We suggest that future research consider how effective Idaho incentives for developers have been, particularly as the EOBED board considers incentives for builders in Malheur County. 
+
+
+
+
+#
+#
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/ResourcesH.html"> Resources >> </a></p>
+
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/housingPage.html"> << Back to House Main </a></p>

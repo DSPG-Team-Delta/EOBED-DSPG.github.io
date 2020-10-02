@@ -1,5 +1,5 @@
 ---
-title: "Healthcare Determinants"
+title: "Determinants of Health and Healthcare Access"
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -9,8 +9,38 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../Healthcare/Determinants_of_Health/healthDeterGraphics.R", local = knitr::knit_global())
 
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
+
+#
+#
+
+Healthcare quality was a recurring theme in our stakeholder meetings. Stakeholders cite that residents from Idaho often visit Malheur County to meet their medical needs. Those in the medical community also report the exceptional levels of care delivered at Malheur hospitals despite the difficulties associated with hiring healthcare professionals in Oregon. Given that healthcare and healthcare access is an important measure of quality of life, we begin by considering two critical determinants of health and healthcare access in the region:
+
+*	Health Insurance Coverage
+*	Food Desert
+
+Overall, Fruitland performs well on this measure because of the very high insurance coverage rates in the tract. While not a food desert, Ontario experiences much lower rates of coverage and therefore does not do particularly well on this measure compared to other tracts in the region. 
+
+Health insurance coverage rates give us a sense of how many people in the various tracts have access to the primary tools necessary to access medical services. This coverage can come from public sources such as Medicaid or Medicare, or private sources, such as employer-sponsored healthcare or individually purchased marketplace plans. While many things drive the final rate of insurance coverage, it is ultimately that access to health insurance makes healthcare possible. 
+
+The Fruitland tract has the highest percentage of individuals covered by health insurance in the region (93.8 percent). Health insurance coverage is lower in the central Ontario tract where 80.7 percent of individuals have insurance coverage. The outer Ontario tracts have greater levels of health insurance coverage at 86.7 and 88.9 percent. 
+
+We also consider whether or not an area is a food desert. The United States Department of Agriculture  (USDA) and the Food Access Research Atlas (USDA, Economic Research Institute, 2015) consider a Census Tract a food desert if the rural tract is more than ten miles from a supermarket. According to the USDA, the majority of tracts in the area are food deserts. Tracts closer to Boise, the central Ontario tract, the Payette and Washoe tracts, and the Caldwell tract are not food deserts. However, Fruitland and the outer Ontario tracts are food deserts. This aligns with stakeholder feedback. Stakeholders highlighted the fact that many Idaho residents do not do much of their retail shopping in Idaho. Instead, to avoid sales taxes, those living in the border region tend to frequent Oregon based establishment for their retail needs.
+
 
 ```{r, echo=F, fig.height=6,fig.width=10}
 healthDeterMap
 
 ```
+
+
+
+#
+#
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/healthQualPage.html"> Health Outcomes and Healthcare Quality >> </a></p>
+
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/qolPage.html"> << Back to QoL Main </a></p>

@@ -4,15 +4,19 @@ title: "Worker Flow"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
+
+#
+#
+
 In our meetings, stakeholders noted that families are leaving Malheur for Fruitland and other parts of Payette County because of the larger stock of homes in Idaho. Many stakeholders anecdotally provided examples of new-comers moving to the region who struggled to find homes to purchase or rent in Malheur, driving them to move to the Idaho side of the border. After moving to Idaho, many individuals continue to work in Malheur County. This poses a problem for Malheur County. First, families who do not live in Oregon do not contribute to the property and sales tax base in Malheur County. Furthermore, school-aged children in these households will attend schools in Idaho, drawing more of the family’s non-economic resources to Idaho and away from Malheur. Stakeholders believe this weakens the fiscal and community fabric in Malheur County. 
 
 Stakeholders noted wanting to know more about where people live and work. Unfortunately, we cannot observe the income or other demographic characteristics of individuals who have moved away from Malheur County to Payette, Washington, or Canyon County. We can, however, observe snapshots of where people live and work in the region.
 
 The Longitudinal Employer-Household Dynamics (LEHD) data from the United Census Bureau includes information about where people live and work in the LEHD Origin-Destination Employment Statistics tables. According to the data, most of those who live in Payette County work outside of the county, while most people who live in Malheur County work in Malheur County. Of the workers that lived in Malheur in 2017 (most recent year of available data), 46.2 percent worked in the county. Another 21 percent worked in Payette County, 6 percent worked in Canyon County, and 4 percent worked in Washington County.
-
-In contrast, of the approximately 9000 workers who lived in Payette County, only 29.8 percent worked in Payette County. Another 30.4 percent worked in Malheur County, 14.9 percent worked in Ada County, and 11.5 percent worked in Canyon County. This movement of labor between the counties aligns with stakeholder comments. 
-What now? To get a better sense of why people choose to live where they live or work where they choose to work, the Board should consider surveying workers in Payette and Malheur County. The data that is currently available does not allow for causal inference. In other words, we cannot tell what might be driving this disparity. A survey that asks people about licensure challenges, cost of living, and housing will allow for a more useful analysis of why people live where they live.   
-
 
 
 
@@ -29,7 +33,7 @@ drawFlowMalhuer <- function(){
   fig1 <<- plot_ly(data,x=~x,y=~y,measure=~measure, text =~text, type = "waterfall", textposition= "outside",decreasing = list(marker = list(color = "Maroon", line = list(color = "red", width = 2))),
                  increasing = (marker = list(color = "Teal")),
                  totals = list(marker = list(color = "deep sky blue", line = list(color = 'blue', width = 3))))
-  fig1 <<- fig1 %>% plotly::layout(title = "Flow of Workers in Malheur", xaxis = list(title = "Locations"),yaxis = list(title="Number of people",range = c(0,15000)))
+  fig1 <<- fig1 %>% plotly::layout(title = "", xaxis = list(title = "Locations"),yaxis = list(title="Number of people",range = c(0,15000)))
   fig1
 }
 
@@ -42,7 +46,7 @@ drawFlowPayette <- function(){
   fig2 <<- plot_ly(data,x=~x,y=~y,measure=~measure, type = "waterfall", text = ~text, textposition= "outside",decreasing = list(marker = list(color = "Maroon", line = list(color = "red", width = 2))),
                  increasing = (marker = list(color = "Teal")),
                  totals = list(marker = list(color = "deep sky blue", line = list(color = 'blue', width = 3))))
-  fig2 <<- fig2 %>% plotly::layout(title = "Flow of Workers in Payette", xaxis = list(title = "Locations"),yaxis = list(title="Number of people",range = c(0,15000)))
+  fig2 <<- fig2 %>% plotly::layout(title = "", xaxis = list(title = "Locations"),yaxis = list(title="Number of people",range = c(0,15000)))
   fig2
 }
 
@@ -50,12 +54,19 @@ drawFlowMalhuer()
 drawFlowPayette()
 ```
 
-## Worker Flow: Malheur
+<center> <font color="orange">Worker Flow: Malheur</center></font>
 ```{r, echo=F, fig.height=6,fig.width=10}
 fig1
 ```
 
-## Worker Flow: Payette
+
+In contrast, of the approximately 9000 workers who lived in Payette County, only 29.8 percent worked in Payette County. Another 30.4 percent worked in Malheur County, 14.9 percent worked in Ada County, and 11.5 percent worked in Canyon County. This movement of labor between the counties aligns with stakeholder comments. 
+What now? To get a better sense of why people choose to live where they live or work where they choose to work, the Board should consider surveying workers in Payette and Malheur County. The data that is currently available does not allow for causal inference. In other words, we cannot tell what might be driving this disparity. A survey that asks people about licensure challenges, cost of living, and housing will allow for a more useful analysis of why people live where they live.   
+
+
+
+
+<center> <font color="orange"> Worker Flow: Payette </center></font>
 ```{r, echo=F, fig.height=6,fig.width=10}
 fig2
 ```

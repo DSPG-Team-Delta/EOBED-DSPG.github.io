@@ -1,17 +1,20 @@
 ---
-title: "Housing Costs"
+title: "Housing Affordability"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = F)
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
 
-| County                   | Monthly Rent | Monthly HOC | Median Household Income | Registered Nurse Income | Percent Inc on Rent | Percent Inc on Home Ownership | RN Income on Rent | RN Income on Home Ownership | MOE_Rent | MOE_HOC | MOE_MedianHH |
-|--------------------------|--------------|-------------|-------------------------|-------------------------|---------------------|-------------------------------|-------------------|-----------------------------|----------|---------|--------------|
-| Canyon County, Idaho     | 10152        | 10968       | 49143                   | 62,890                  | 20.7                | 22.3                          | 16.1              | 17.4                        | 240      | 228     | 1598         |
-| Payette County, Idaho    | 8916         | 10284       | 50289                   | 62,890                  | 17.7                | 20.4                          | 14.2              | 16.4                        | 780      | 804     | 3560         |
-| Washington County, Idaho | 8052         | 7344        | 37206                   | 62,890                  | 21.6                | 19.7                          | 12.8              | 11.7                        | 480      | 636     | 3857         |
-| Malheur County, Oregon   | 7968         | 8820        | 42478                   | 74,900                  | 18.8                | 20.8                          | 10.6              | 11.8                        | 312      | 1104    | 3046         |
+#
+#
+
+Individuals make decisions about where to work and live based on the availability of jobs. They also make decisions based on the availability and quality of homes. Multiple stakeholder cited how difficult it is to find a home to rent or buy in the area. Some cited availability as the problem while others cited the quality of what is available. To better understand the possible role of housing, we consider the affordability of homeownership and rentals and assess the current housing stock in Malheur County and Payette County. 
+
+Using data from the American Community Survey, we find that housing is equally affordable across the region for the median income-earning household given the median homeownership and rental costs. Affordability is measured as the ratio of housing costs to income. A home is affordable if the cost burden 30 percent or less of a household’s income (United States Department of Housing and Urban Development). When we adjust for wages based on occupation, housing becomes an even smaller share of one’s income in Oregon. For example, housing is more affordable for a secondary teacher in Malheur than a secondary teacher in Payette County. 
 
 ## Mortgage Costs
 ```{r, include=F}
@@ -30,3 +33,14 @@ source("../Housing/Cost and affordability data/renter_cost_Data.R", local = knit
 ```{r, echo=F, fig.height=6,fig.width=10}
 ownerMap
 ```
+
+
+
+
+#
+#
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/homeOwnPage.html"> Housing in Malheur and Payette Counties" >> </a></p>
+
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/housingPage.html"> << Back to House Main </a></p>

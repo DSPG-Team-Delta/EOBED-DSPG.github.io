@@ -5,6 +5,12 @@ title: "Registered Nurse Housing Cost"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = F)
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
+
+#
+#
 
 ## RN Mortgage Costs
 ```{r, include=F}

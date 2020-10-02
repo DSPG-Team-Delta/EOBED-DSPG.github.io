@@ -5,7 +5,12 @@ title: "General"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
 
+#
+#
 **MORE INTRO TEXT COMING HERE SOON*
 In this section we provide an overview of the Eastern Oregon border region.This includes data regarding the size of the population, income, poverty, unemployment,the movement of labor, and the the jobs and industries found in the region.     
 

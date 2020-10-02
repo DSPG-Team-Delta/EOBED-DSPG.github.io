@@ -10,8 +10,36 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../Education/edOutcomeMap.R", local = knitr::knit_global())
 
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
 
+#
+#
+<a href="#map">Jump to the map</a>
+
+
+There are several ways to measure student educational outcomes. A standard set of measures focuses on academic outcomes such as test scores, graduation rates, and grades. However, these measures alone tell an incomplete story. School climates, on the other hand, reflect how resources are dispersed, teacher's and administration's ability to react to student behavioral needs in productive ways, and how equitable and effective a learning environment truly is. Research finds that suspensions and expulsions have an impact on a student's eventual academic outcomes and human capital, for example (Arcia, 2006; Ekstrom, 1986; Jordan & Anil, 2009; Josh Kinsler, 2013; Joshua Kinsler, 2009; Mendez & Sanders, 1981; Raffaele Mendez, 2003; Rausch et al., 2005). 
+
+Data from the Civil Rights Data Collection (2015) was used to explore in-school suspension (ISS) rates, out-of-school (OSS) suspension rates, and expulsion rates. Suspensions and expulsions have been shown to increase dropout rates and worsen the school to prison pipeline. Suspensions impact student grades, lead to missed schoolwork, and result in a feeling of exclusion. School districts that rely heavily on zero-tolerance policies are more likely to set students on these paths than those who use behavioral policies centered on individual student needs. 
+
+Given the findings in the research, we study indicators of an inclusive and equitable learning environment for all students. These indicators include suspension rates and absenteeism. We also examine cohort graduation rates rather than test scores. 
+Overall, the Malheur county school districts vary in their performance on this measure. Two-thirds of the Malheur districts are in the top sixty percent of districts in the region. However, the remaining districts are in the bottom two quintiles along with the two Payette school districts. The school districts that perform the best on this measure are Arock School District (Malheur), Cambridge School District (Washington), and Legacy Charter School District (Canyon). These districts have relatively low rates of absenteeism, in-school suspensions, out-of-school suspensions, and expulsions. They also have higher than average graduation rates. The poorest perform school districts on are the Ontario School District, Nyssa School District, and Canyon-Owyhee School Service Agency (COSSA). 
+
+
+<div id="map">
 ```{r, echo=F, fig.height=6,fig.width=10}
 edOutMap
 
 ```
+
+</div>
+
+
+#
+#
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/healthDeterPage.html"> Determinants of Health and Healthcare Access >> </a></p>
+
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/qolPage.html"> << Back to QoL Main </a></p>

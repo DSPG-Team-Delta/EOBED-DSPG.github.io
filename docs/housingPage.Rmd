@@ -5,5 +5,11 @@ title: "Housing"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
 
-Housing Information Placeholder
+#
+#
+
+Individuals make decisions about where to work and live based on the availability of jobs. They also make decisions based on the availability and quality of homes. Multiple stakeholder cited how difficult it is to find a home to rent or buy in the area. Some cited availability as the problem while others cited the quality of what is available. To better understand the possible role of housing, we consider the affordability of homeownership and rentals and assess the current housing stock in Malheur County and Payette County.

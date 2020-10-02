@@ -10,8 +10,36 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../Education/ccReadyMap.R", local = knitr::knit_global())
 
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
+
+#
+#
+<a href="#map">Jump to the map</a>
+
+
+Another set of educational determinants of economic opportunity are those that prepare students for college and post-high school employment. College and career readiness is measured by the availability of courses that give students college credit and the foundation for college level courses. For example, in recent years, districts in Malheur have worked to provide courses to prepare students for college or technical careers through dual enrollment courses and associate degree pathways. In addition, high schools provide Advanced Placement (AP), gifted and talented courses, and courses that prepare students for careers in STEM fields. We look at the availability of these various programs by district. If any high school in the district offers these types of courses, then that works in favor of the district.
+
+Overall, a handful of districts in Canyon county, the Weiser District in Washington County, and the Fruitland School District perform the best on this measure. The Nyssa District, Ontario District, Parma District, and Payette Joint District are close behind and all perform equally well on this measure. The availability of AP courses in the Fruitland School District gives the district a slight edge over the other schools in the region. The Harper School District in Malheur county is the lowest performing school district and is found in the bottom most quintile of schools, along with the Adrian School District and the Vale School District. The Jordan Valley school District is found in the fourth quintile. The poor performance of the Harper School District is the lack of AP courses, IB courses, gifted and talented education, and STEM courses. The only measure in which the school district does not fall behind is the availability of a credit recovery program for students. 
+
+Other school districts in Malheur county that perform below the median do not provide any AP or IB courses. Some provide gifted and talented courses and STEM courses, while others do not. Overall, these results suggest that students in Malheur would benefit from AP or IB course offerings and calculus, chemistry, and physics courses. The lack of these courses in some districts aligns with what was raised in stakeholder meetings. Often school districts in Malheur county struggle to attract teachers, especially those who can provide advanced course offerings that might prepare students for college. A positive trend that we notice in the data and heard in our stakeholder meetings was the effort to offer dual enrollment and technical training for students, preparing students for careers after graduating from high school. 
+
+<div id="map">
 
 ```{r, echo=F, fig.height=6,fig.width=10}
 ccrMap
 
 ```
+
+
+</div>
+
+
+#
+#
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/edOutcomePage.html"> Educational Outcomes >> </a></p>
+
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/qolPage.html"> << Back to QoL Main </a></p>

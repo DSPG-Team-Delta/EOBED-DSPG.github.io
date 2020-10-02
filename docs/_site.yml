@@ -28,38 +28,36 @@ navbar:
               href: ResourcesQ.html
         - text: "Licensure"
           href: licensurePage.html
-        - text: "Quality of Life"
-          menu:
-            - text: "Overview: Quality of Life"
-              href: qolPage.html
-            - text: "Healthcare Determinants"
-              href: healthDeterPage.html
-            - text: "Healthcare Outcomes"
-              href: healthQualPage.html
-            - text: "Education Determinants"
-              href: edDeterPage.html
-            - text: "Education Outcomes"
-              href: edOutcomePage.html
-            - text: "College and Career Readiness"
-              href: ccrPage.html
-            - text: "Determinants of Economic Opportunity"
-              href: econDeterPage.html
-            - text: "State of Economic Wellbeing"
-              href: econStatePage.html
-            - text: "Resources"
-              href: ResourcesQoL.html
         - text: "Housing"
           menu:
             - text: "Overview: Housing"
               href: housingPage.html
             - text: "Cost and Affordability"
               href: housingCostPage.html
-            - text: "RN Cost and Affordability"
-              href: rnCostPage.html
-            - text: "Home Ownership Rates"
+            - text: "Housing in Malheur and Payette Counties"
               href: homeOwnPage.html
             - text: "Resources"
               href: ResourcesH.html
+        - text: "Quality of Life"
+          menu:
+            - text: "Overview: Quality of Life"
+              href: qolPage.html
+            - text: "State of Economic Wellbeing"
+              href: econStatePage.html
+            - text: "Determinants of Economic Opportunity"
+              href: econDeterPage.html
+            - text: "Education Determinants"
+              href: edDeterPage.html
+            - text: "College and Career Readiness"
+              href: ccrPage.html
+            - text: "Education Outcomes"
+              href: edOutcomePage.html
+            - text: "Healthcare Determinants"
+              href: healthDeterPage.html
+            - text: "Healthcare Outcomes"
+              href: healthQualPage.html
+            - text: "Resources"
+              href: ResourcesQoL.html
         - text: "Data Tables"
           menu:
             - text: "DON'T CLICK - BROKEN LINK"

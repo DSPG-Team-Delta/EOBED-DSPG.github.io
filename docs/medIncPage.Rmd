@@ -5,6 +5,12 @@ title: "Median Income"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
+
+#
+#
 
 ## Individual Median Income
 ```{r, include=F}

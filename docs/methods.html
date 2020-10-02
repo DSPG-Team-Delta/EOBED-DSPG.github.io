@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Thamanna Vasan" />
+
+
+<title>Methods &amp; Data</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">EOBED+Data Science for the Public Good</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    General
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="genPage.html">Overview: General</a>
+    </li>
+    <li>
+      <a href="populationPage.html">Population</a>
+    </li>
+    <li>
+      <a href="demoChgPage.html">Race</a>
+    </li>
+    <li>
+      <a href="povertyPage.html">Poverty</a>
+    </li>
+    <li>
+      <a href="unEmpPage.html">Income &amp; Unemployment</a>
+    </li>
+    <li>
+      <a href="IndandOcc.html">Industries &amp; Occupation</a>
+    </li>
+    <li>
+      <a href="workFlowPage.html">Worker Flow</a>
+    </li>
+    <li>
+      <a href="ResourcesQ.html">Resources</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="licensurePage.html">Licensure</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Housing
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="housingPage.html">Overview: Housing</a>
+    </li>
+    <li>
+      <a href="housingCostPage.html">Cost and Affordability</a>
+    </li>
+    <li>
+      <a href="homeOwnPage.html">Housing in Malheur and Payette Counties</a>
+    </li>
+    <li>
+      <a href="ResourcesH.html">Resources</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Quality of Life
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="qolPage.html">Overview: Quality of Life</a>
+    </li>
+    <li>
+      <a href="econStatePage.html">State of Economic Wellbeing</a>
+    </li>
+    <li>
+      <a href="econDeterPage.html">Determinants of Economic Opportunity</a>
+    </li>
+    <li>
+      <a href="edDeterPage.html">Education Determinants</a>
+    </li>
+    <li>
+      <a href="ccrPage.html">College and Career Readiness</a>
+    </li>
+    <li>
+      <a href="edOutcomePage.html">Education Outcomes</a>
+    </li>
+    <li>
+      <a href="healthDeterPage.html">Healthcare Determinants</a>
+    </li>
+    <li>
+      <a href="healthQualPage.html">Healthcare Outcomes</a>
+    </li>
+    <li>
+      <a href="ResourcesQoL.html">Resources</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Data Tables
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="blank.html">DON'T CLICK - BROKEN LINK</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="methods.html">Methods &amp; Data</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Methods &amp; Data</h1>
+<h4 class="author">Thamanna Vasan</h4>
+<h4 class="date">10/1/2020</h4>
+
+</div>
+
+
+<div id="section" class="section level1">
+<h1></h1>
+</div>
+<div id="section-1" class="section level1">
+<h1></h1>
+</div>
+<div id="section-2" class="section level1">
+<h1></h1>
+</div>
+<div id="section-3" class="section level1">
+<h1></h1>
+<p><strong>Stakeholder meetings</strong></p>
+<p>To narrow the scope of the research question and to identify critical domains, we conducted several stakeholder meetings. The primary stakeholder in this process was the Eastern Oregon Border Economic Development Board. The Eastern Oregon Border Economic Development (EOBED) Board is a legislatively appointed board tasked with developing and implementing economic and workforce development strategies in the region to close the gap between Eastern Oregon’s rural communities and their counterparts across Oregon and Idaho. Our primary contact with the EOBED Board was through Dr. Stuart Reitz, who has served on the Board since December 2017.</p>
+<p>We also spoke with several other stakeholders in education, health, and city management. In our conversation with Mark Redmond, the Malheur County Education Services District superintendent, and Kim Tomkinson, Director at Treasure Valley Community College, we heard the following recurring themes: * Shortage of local instructors and aging technical educator population. * Shortage of housing. * Poor broadband access for students. * Shortage of certified early childhood education educators. * Perceptions about quality of education between Idaho and Oregon. * Difficulty hiring specialized positions at the K-12 level, like special education instructors, occupational therapists. * Difficulty retaining teachers at the K-12 level. * Perceptions about white flight to Idaho from Oregon. * Schools and hospitals are doing what they can to provide dual enrollment opportunities.</p>
+<p>To better understand the challenges rural cities experience, we met with Adam Brown and Peter Hall, the city of Ontario’s City Manager and Assistant City Manager. The following themes rose to the top: * Need for increased broadband access. * Lack of workforce housing. * Median value of a home in Eastern Oregon is lower than median value in Western Idaho. * Perception that low-income individuals come to Oregon to take advantage of the benefits. * Idaho residents shop in Oregon and do not contribute to services due to the lack of sales tax. * Property taxes are higher in Oregon than in Idaho. * Availablity of outdoor recreation in Oregon versus Idaho. * Inequitable excise tax formula for marijuana sales means Malheur gets less than they should despite drawing in many Idaho residents. * Ontario and surrounding areas struggle to attract new industries to the area. * Diverse school district, people who stay behind like living in Ontario. * City offers services for homeless population.</p>
+<p>Finally, Ken Hart, former President of Saint Alphonsus Medical Center in Ontario, shared some experiences regarding healthcare and licensing in the region. The themes included: * Difficulty hiring local nurses and in attracting out of state nurses. * Lack of rental house options and home purchasing options. * Lack of Sexual Assault Nurse Examiners, possibly due to higher standards. * Do higher standards for nurses and other healthcare professionals present an equity concern? * Licensure is an issue, but often individuals get paid more in Oregon. * Perception: “Ontario is the place where poor people go.” Is this true?</p>
+<p>Generally, stakeholder meetings highlighted two primary themes. The first is the concern that upper-middle class families are leaving Malheur in large numbers for cities like Fruitland in Idaho. Annecdotally, stakeholders cite a lack of newer homes on the Oregon side of the border and the perception that the quality of life in Idaho is better as reasons for recent departures. The second theme is the difficulty the region has in attracting and retaining new families and workers. Stakeholders believe a lack of workforce housing and licensing barriers are to blame. Given these findings, the research team identified three research domain areas to explore: availability of quality housing, barriers to licensure, and perceptions about the quality of life.</p>
+<p><strong>Data Discovery</strong></p>
+<p>Following the identification of the primary research domains, the team embarked on a data and issue discovery process (table x). Much of the data used to identify possible barriers to opportunity in the region comes from the United States Census Bureau’s American Community Survey. Given that the rural counties in Oregon and Malheur are sparsely populated, the data from the Census Bureau is only available at the county or tract level (roughly 2500 to 8000 individuals per tract). The most recent data available through the Census Beaureu is 2018 data, with new data released for the prior year in December of the following year. In addition to data from the Census Bureau, we also make use of other survey and aggregate data collected by the Bureau of Labor Statistics, the Civil Rights Data Collection, Centers for Medicaid and Medicare Services, and state public health agencies. Administrative data is also used in this paper to understand the state of housing in Malheur county and Payette County. The County assessors offices in each County provided 2018 tax lot data that was used to understand the age, value, and type of housing availability in each region.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

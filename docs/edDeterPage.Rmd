@@ -10,8 +10,91 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../Education/edDeterMap.R", local = knitr::knit_global())
 
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
 
+#
+#
+
+<a href="#map">Jump to the map</a>
+
+
+To measure educational determinants and outcomes, we use data from the most recent Civil Rights Data Collection (2015) and state education departments. The Civil Rights Data Collection (CRDC) collects information about employment, attendance, expulsions, suspensions, advanced and dual enrollment courses, and many other factors for all schools and districts. 
+
+First, we consider the two types of determinants of educational outcomes: overall determinants and college and career readiness. The first set of determinants can be applied to all schools:
+
+*	<a href="#STR">Student to Teacher Ratio</a>
+*	<a href="#STC">Student to Counselor Ratio</a>
+*	<a href="#EXP">Teacher Experience</a>
+*	<a href="#SALARY">Teacher Salaries</a>
+*	<a href="#TITLEI">Title I Funding</a>
+
+
+For the first index, the results vary across the region. On average, six out of the nine districts in Malheur are in the top 2 quintiles of districts. Four of the six districts outperform the Payette Joint District, and all six outperform the Fruitland School District. The remaining three districts fall below the median school in the region and have z-scores that drop them to the bottom two quintiles. The districts that perform the best on this measure are the Adrian School District, Vale School District, and the Arock School District. The Jordan Valley School District and the Annex School District fall in the bottom quintile. 
+
+<div id="STR"></div>
+<div id="STC"></div>
+#
+#
+
+*Student to Teacher/Counselor Ratios*
+
+
+The Malheur districts that do not perform well in the overall index appear to have significantly higher than the average student to counselor ratios. Five of the nine districts in Malheur did not have a counselor at the time of the survey. Low student to counselor ratios are linked to student educational and disciplinary outcomes (Carey & Harrington, 2010; Carrell & Carrell, 2006; Lapan et al., 2012; Moyer, 2011; Reback, 2010). Data about counselors in the district in the CRDC includes counselors who work with parents, provide consultation to staff on learning issues, and who work with students on educational, personal, and career goals. These counselors can drive outcomes like graduation rates, disciplinary rates, and more. 
+<div id="EXP"></div>
+
+Similarly, student to teacher ratios are important. The primary implication of a low student to teacher ratio is a smaller classroom. While reducing class sizes can be expensive, doing so can increase academic achievement (Rivkin, 2005; Rockoff, 2004; Aronson et al., 2007). Eight of the nine school district in Malheur perform better than the median school district on the student to teacher ratio, with the Nyssa School District placing just below average with a student to teacher ratio of 18.87. In contrast, both the Fruitland School District and the Payette Joint District fall below the median, with student to teacher ratios of 19.57 and 18.27. 
+
+
+#
+#
+
+*Teacher Experience*
+
+
+Another measure that drives these results is the lack of experienced teachers. Forty-three percent of Jordan Valley School District teachers were first-year or second-year teachers. 
+School districts in Malheur tend to perform better than school districts in Canyon County, Payette County, and Washington County in student to teacher ratio, teacher experience, and teacher salary (adjusted for the number of pupils). 
+<div id="SALARY"></div>
+
+First year teachers do not perform as well as more experienced teachers (Rivkin 2005) and experience can have a significant impact on student performance (Rockoff 2004)
+
+
+#
+#
+
+*Teacher Salaries*
+
+<div id="TITLEI"></div>
+
+All the school districts in Malheur county are above average on teacher salary when adjusted for district size, while all the Idaho districts in our set pay teachers less than the median amount.  Higher teacher salaries and school resource expenditure are linked to improved educational achievement (Greenwald et al., 1996; Sander, 1999).
+
+
+#
+#
+
+*Title I Funding*
+
+
+Finally, most if not all districts in both states have at least one Title I school. Arock School District, Juntura School District, and Canyon-Owyhee do not have any schools receiving Title 1 funding which can pose a challenge for schools that must serve low-income students without the help of supplemental funds. 
+
+
+
+#
+#
+<div id="map">
 ```{r, echo=F, fig.height=6,fig.width=10}
 edDeterMap
 
 ```
+
+</div>
+
+
+#
+#
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/ccrPage.html"> College and Career Readiness >> </a></p>
+
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/qolPage.html"> << Back to QoL Main </a></p>

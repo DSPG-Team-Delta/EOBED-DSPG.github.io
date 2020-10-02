@@ -5,6 +5,12 @@ title: "Industries and Occupations"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
+
+#
+#
 
 The retail trade industry employs the most individuals in Malheur County (United States Census Bureau, County Business Patterns, 2012 to 2018). Establishments in retail trade include all retail stores, such as electronic stores, home and garden stores, grocery stores, and establishments of all sizes, from large box retailers to small businesses. Approximately 22 percent of all those employed in Malheur County worked in this industry, totaling approximately 1843 employees and $54 million in annual payroll. Between 2012 and 2018 the number of retail trade establishments decreased from 120 to 110. However, the total annual payroll increased from $46 million to $54 million, making it the second-highest industry by payroll (19.9 percent of the county’s annual payroll).
 

@@ -1,5 +1,5 @@
 ---
-title: "Healthcare Outcomes"
+title: "Health Outcomes and Healthcare Quality"
 ---
 
 ```{r setup, include=FALSE}
@@ -10,8 +10,75 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../Healthcare/Healthcare_Outcomes_and_Quality/healthQualGraphics.R", local = knitr::knit_global())
 
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
 
+#
+#
+
+<a href="#map">Jump to the map</a>
+
+Health outcomes in the region include the quality of care that patients receive and the quality of life it can lead to. This index includes information about:
+
+* <a href="#QOC"> Quality of Care Ratings</a>
+* <a href="#TDR"> 30 Day Readmission Rate</a>
+* <a href="#lifexpec"> Life Expectancy</a> 
+* <a href="#lifexpec"> Infant Mortality</a>
+
+
+Overall, Census tracts in Washington County do well on this measure. Malheur County tracts do better than all the Payette Counties, mainly because Payette County does not have a hospital. <div id ="QOC"></div> Payette County does have a handful of clinics and medical facilities, but residents must go to Ontario or Weiser, ID, to receive certain types of care. 
+
+<div id="QOC"></div>
+
+#
+#
+
+*Quality of Care Ratings*
+
+
+To determine the quality of care in each county, we use data from the Centers of Medicare and Medicaid Services (CMS). In particular, we use data from the 2018 Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS) ratings. The data includes an overall score for cleanliness, nurse communication, doctor communication, staff responsiveness, communication about medicine, discharge information, care transition, quietness, the recommendation of a hospital, and overall hospital rating. The rating range from 1 to 5 and is collected from a random sample of patients (adults) after discharge. These ratings are also known as the star ratings. If a county has more than one hospital, we average the star ratings across the hospitals and healthcare providers.
+<div id="TDR"></div>
+St. Alphonsus Medical Center in Ontario does better than most hospitals in the region. In particular, the hospital in Malheur performs exceptionally well on cleanliness, staff responsiveness, discharge information, and overall hospital rating. Rankings for nurse communication and doctor communication are similar for hospitals in both regions. Despite difficulties hiring nurses in Oregon, hospitals on the Oregon and Idaho sides of the border both received scores of 4 for nurse communication. All the hospitals in the region received a 3 for doctor communication. 
+
+
+#
+#
+
+*30 Day Readmission Rate*
+
+<div id="lifexpec"></div>
+Next, we look at 30 day readmission rate data from the CMS (2018). The data provides a hospital-wide risk-standardized measure of readmission for all conditions. A higher readmission rate suggests that patients are not receiving the best care they can receive. Higher readmission rates also have implications for Medicare funding that hospitals receive for their most vulnerable patients. The state average 30 day readmission rate is 14.45 percent. Malheur County has the lowest readmission rate in the region at 14.20 percent. This readmission rate is slightly lower than the state average. Hospitals in Canyon County have the highest average 30 day readmission rate of 14.75 percent. That being said, the difference is not substantial and suggests that the region does relatively well on this measure. Both the state of Oregon and this region do better than the national average of 15.32 percent. 
+
+
+
+#
+#
+
+*Life Expectancy and Infant Mortality*
+
+
+Life expectancy and infant mortality are useful metrics for the quality of care and life in an area. Census tract level data for life expectancy comes from the National Center for Health Statistics (2018). Life expectancy in the region ranges from 72.5 years to 81.9 years, and the average life expectancy is 78.1. In comparison, the national average life expectancy in 2018 was 78.7 in the United States.
+
+In Malheur County, life expectancy ranges from 72.8 years to 81.1 years. In the central Ontario tract, life expectancy is 72.8 years, while those living in more sparsely populated areas around Ontario have higher life expectancies, ranging from 78 years to 81 years. In Idaho, Payette (city) tracts have a life expectancy of 77.6 and 76.3, while the life expectancy in the Fruitland tract is 81.1. It is not immediately clear what might be driving these disparities. However, research finds that gender, income, education, occupation, access to healthcare and health insurance, and income inequality could be responsible for differences in life expectancy (Cooper et al., 2002; Cristia, 2009; Duleep, 1989; Feldman et al., 1989; Gepkens & Gunning-Schepers, 1996, 1996; Lleras-Muney, 2005; Meara et al., 2008; Preston & Elo, 1995; Snyder & Evans, 2006). We know from other parts of this report that the central Ontario tract and the more sparsely populated tracts outside Ontario vary along these various margins. The same can be said of the cities of Fruitland and Payette.
+
+Unfortunately, none of the publically available datasets allows us to make any causal claims bout what might be driving these disparities. 
+Finally, we use Oregon Death Data (Oregon Health Authority, Center for Health Statistics, 2018) and the Bureau of Vital Records and Health Statistics (Idaho Department of Health and Welfare, Idaho Vital Statistics, 2018). The infant mortality rate is lowest in Washington County (0 deaths per 1000 births), followed by Malheur County (2.5), Payette County (3.5), and Canyon County (5.5). As with the life expectancy, we cannot draw any conclusions regarding what might be driving these results, but education, living quality, income, income inequality, and race can play a role in outcomes for mothers and their children (He et al., 2015; Hogue & Hargraves, 1993; Pabayo et al., 2019; Schramm, 2016).
+
+
+<div id="map">
 ```{r, echo=F, fig.height=6,fig.width=10}
 healthQualMap
 
 ```
+
+</div>
+
+
+#
+#
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/ResourcesQoL.html"> Resources >> </a></p>
+
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/qolPage.html"> << Back to QoL Main </a></p>

@@ -10,8 +10,106 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../Economics/State of Economic Wellbeing and Determinants of Economic Opportunity/econStateGraphics.R", local = knitr::knit_global())
 
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
 
+#
+#
+
+<a href="#map">Jump to the map</a>
+
+
+We begin by considering the state of economic wellbeing in the region. This is an outcomes index that sets the stage for understanding what the economic wellbeing is in each tract in Malheur County, Payette County, Washington County, and Canyon County. The index is comprised of the following key indicators:
+
+*	<a href ="#COM">Commute Time</a>
+*  <a href ="#lfp"> Labor Force Participation Rate </a>
+*	<a href ="#employ"> Full-time Employment Rate </a>
+*	<a href ="#pov"> Living in Poverty </a>
+*	<a href ="#snap"> Poverty and SNAP </a>
+
+Performance on this measure is mixed across the region. Tracts around Ontario perform well on this measure and place in the top 2 quintiles. However, the central Ontario tract is relatively average. Other parts of the county, including Vale and the more sparsely populated parts of Malheur, do not <div id="COM"></div> do well on this measure. Payette County does relatively well with the tracts that include Washoe and Payette placing in the top quintile of tracts and Fruitland placing in the top two quintiles. 
+
+
+
+#
+#
+
+*Commute Time*
+
+
+Research shows that commute time is linked to economic and social capital gains. Longer commute times are linked to increased absenteeism, decreased returns to labor, and increase work-related expenditures(Besser et al., 2008; Chapple, 2001; Fu & Viard, n.d.; Gutiérrez-i-Puigarnau & van Ommeren, 2010; Kobus et al., 2015; Mulalic et al., 2014; Nie & Sousa-Poza, 2018; van Ommeren & Gutiérrez-i-Puigarnau, 2011). We use data from the Census (ACS, 5-year estimates) for 2018. 
+
+Those who live in and near Ontario have much shorter commutes than their counterparts in Fruitland. The mean travel time to work in the region ranges from 13 minutes to 31 minutes. In the two Ontario tracts, the mean commute time is 13 minutes and 16 minutes. In the two Payette tracts, commute time is 10 minutes and 12 minutes. Individuals who live in these tracts experience some of the shortest commutes in the region. Fruitland residents, however, have a longer mean travel time of 20.5 minutes. This could be in part because many Fruitland and Payette County residents work outside their county of residence.
+<div id="lfp"></div>
+While commute times are shorter in the tracts around Ontario, it is important to note that many of the more sparsely populated parts of the county experienced relatively high commute times. For example, the tracts that include Owyhee and Adrian saw a mean commute time of 22.5 minutes. The Board should consider policies that reduce commute time, such as affordable housing near work centers, or policies that reduce the cost of long commutes, such as affordable and accessible public transit. If the region or county already has similar programs in place, they should highlight them and make that information available to prospective and current residents.
+
+
+
+#
+#
+
+*Labor Force Participation Rate*
+
+
+Next, we consider labor force participation in the region. Labor force participation is one of several proxy measures for the availability of employment in the region. The measure tells us what proportion of individuals over the age of 16 years are employed. This measure includes all non-institutionalized civilians (those who are not currently living or working in penal institutions, mental facilities, or homes for the aged and not in the armed forces).  We use data from the Census (ACS, 5-year estimates) for 2018. 
+
+In 2018, the labor force participation rate in Oregon was 62.6 percent. The Idaho labor force participation rate was similar at 62.1 percent. Many Census tracts in Canyon experience significantly higher rates of participation. In tracts around the cities of Caldwell and Nampa, between 62 and 70 percent of the labor force was employed. The Caldwell Census tract had a labor force participation rate of 63.9 percent, and the Nampa tract had a participation rate of 62.6 percent. 
+<div id="employ"></div>
+When we focus on the region immediately around the cities of Ontario, Payette ad Fruitland we observe relatively average rates of participation in Ontario and the more sparsely populated parts fo the city of Payette and in Fruitland. The labor force participation rate in the central Ontario tract is  61.5 percent, a rate that is slightly lower than the average Oregon tract, but higher than the average Census tract in our region of interest. 
+
+
+
+#
+#
+
+*Full-time Employment Rate*
+
+
+Next, we look at how many people are employed full time in the region. We consider working 35 or more hours a week as full-time employment. Canyon County had some of the highest levels of full-time employment, particularly in tracts closest to Boise. Payette County also experienced some relatively high levels of employment. Approximately 60 percent of those who lived near the city of Payette and 58 percent of those who lived in Fruitland were employed full-time in 2018. This places Fruitland in the top 40 percent of tracts and parts of Payette in the top 20 percentile of tracts in the region. The tracts that include Weiser also perform well on this measure, with 62.1 percent of those over 16 years of age working 35 or more hours a week. 
+
+Ontario and many parts of Malheur do not perform as well on this measure. The central Ontario tract is in the bottom 40 percent of tracts, with only 56.2 percent of those over 16 working full time. The more sparsely populated parts of Malheur County perform particularly poorly on this measure, with only 27.5 percent of those over 16 working full-time. 
+<div id="pov"></div>
+It is worth noting that full-time employment is not a perfect metric. There are many reasons an individual might not seek full-time employment, and the type of full-time work an individual might be doing might still constitute low-wage work. However, it is a useful metric that illustrates the disparities in access to full-time and year-round employment in the region.  
+
+*Living in Poverty*
+
+
+Poverty is a relatively common measure of the economic condition in an area. It is not only reflective of the number of people who are unemployed and unable to find work but can also be a reflection of the type of work individuals have access to. When an area experiences high levels of poverty, it is crucial to not only consider the role played by unemployment but also consider the type of work available to individuals.
+
+Tracts in Canyon County experience some of the lowest levels of poverty in the region. However, tracts in and around Nampa and Caldwell experience relatively high levels of poverty that place them in the bottom quintile of tracts in the region. However, tracts in and around Ontario also experience high levels of poverty. Approximately 35 percent of those who live in the central Ontario tract lived at or below the poverty line. The two tracts immediately around the city of Ontario also experienced high levels of poverty, with 21 and 25 percent of individuals living in poverty, placing the area around Ontario in the bottom 40 percent of tracts in the region. The Vale and Nyssa Census tracts also experienced high levels of poverty, with approximately 20 percent of individuals living in poverty. In contrast, only 13 percent of those living in the Fruitland tract and 10 percent of those living Payette (city) live at or below the poverty line. More individuals living in and near Washoe live in poverty (15 percent). 
+<div id="snap"></div>
+Another interesting finding is that, despite the low levels of full-time employment, only 14 percent of those living in the more sparsely populated areas of Malheur live at or below the poverty line. It isn’t entirely clear what might be driving this outcome. 
+
+
+
+#
+#
+
+*Poverty and SNAP*
+
+
+Finally, we look at the share of those living in poverty who have access to the Supplemental Nutrition Assistance Program (SNAP). SNAP is a useful tool for weathering periods of unemployment or poverty and gives individuals access to food when they might otherwise struggle to eat. This is an important program for individuals who need to feed themselves and their families while they look for work or are working and still living below the poverty line. Oregon is known to have a more robust safety net system than Idaho and we can see in the data that more Oregonians have access to food via SNAP when living in poverty than Idaho. While SNAP benefits and eligibility are uniform across states, participation can vary for many reasons, including awareness of the program and its benefits. 
+Ontario experiences high levels of poverty, but between 60 and 75 percent of those who live at or below the poverty line received SNAP benefits in 2018. In contrast, only 44 percent of those living in poverty in Fruitland, and only 15 percent of those living in Payette (city) received SNAP benefits in 2018. Certain parts of Canyon County have even lower levels of SNAP coverage for those living in poverty. In some tracts, only 3 percent of those living in poverty have access to SNAP benefits. 
+
+
+
+#
+#
+
+<div id="map">
 ```{r, echo=F, fig.height=6,fig.width=10}
 econStateMap
 
 ```
+
+</div>
+
+
+#
+#
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/econDeterPage.html"> Determinants of Economic Opportunity >> </a></p>
+
+<p style="text-align:right">
+<a href="https://eobed-dspg.github.io/qolPage.html"> << Back to QoL Main </a></p>

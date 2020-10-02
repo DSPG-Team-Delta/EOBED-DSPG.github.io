@@ -10,7 +10,12 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../Population_Map/population_Map.R", local = knitr::knit_global())
 
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
 
+#
+#
 
 <a href="#popmap">Jump to the map</a>
 

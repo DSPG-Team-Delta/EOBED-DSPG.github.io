@@ -1,0 +1,59 @@
+---
+title: "Methods & Data"
+author: "Thamanna Vasan"
+date: "10/1/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#
+#
+#
+#
+
+**Stakeholder meetings**
+
+
+To narrow the scope of the research question and to identify critical domains, we conducted several stakeholder meetings. The primary stakeholder in this process was the Eastern Oregon Border Economic Development Board. The Eastern Oregon Border Economic Development (EOBED) Board is a legislatively appointed board tasked with developing and implementing economic and workforce development strategies in the region to close the gap between Eastern Oregon's rural communities and their counterparts across Oregon and Idaho. Our primary contact with the EOBED Board was through Dr. Stuart Reitz, who has served on the Board since December 2017. 
+
+We also spoke with several other stakeholders in education, health, and city management. In our conversation with Mark Redmond, the Malheur County Education Services District superintendent, and Kim Tomkinson, Director at Treasure Valley Community College, we heard the following recurring themes:
+*	Shortage of local instructors and aging technical educator population. 
+*	Shortage of housing. 
+*	Poor broadband access for students. 
+*	Shortage of certified early childhood education educators. 
+*	Perceptions about quality of education between Idaho and Oregon. 
+*	Difficulty hiring specialized positions at the K-12 level, like special education instructors, occupational therapists.
+*	Difficulty retaining teachers at the K-12 level. 
+*	Perceptions about white flight to Idaho from Oregon. 
+*	Schools and hospitals are doing what they can to provide dual enrollment opportunities.
+
+To better understand the challenges rural cities experience, we met with Adam Brown and Peter Hall, the city of Ontario's City Manager and Assistant City Manager.  The following themes rose to the top:
+*	Need for increased broadband access.
+*	Lack of workforce housing. 
+*	Median value of a home in Eastern Oregon is lower than median value in Western Idaho. 
+*	Perception that low-income individuals come to Oregon to take advantage of the benefits. 
+*	Idaho residents shop in Oregon and do not contribute to services due to the lack of sales tax. 
+*	Property taxes are higher in Oregon than in Idaho. 
+*	Availablity of outdoor recreation in Oregon versus Idaho. 
+*	Inequitable excise tax formula for marijuana sales means Malheur gets less than they should despite drawing in many Idaho residents. 
+*	Ontario and surrounding areas struggle to attract new industries to the area. 
+*	Diverse school district, people who stay behind like living in Ontario. 
+*	City offers services for homeless population. 
+
+Finally, Ken Hart, former President of Saint Alphonsus Medical Center in Ontario, shared some experiences regarding healthcare and licensing in the region. The themes included:
+*	Difficulty hiring local nurses and in attracting out of state nurses. 
+*	Lack of rental house options and home purchasing options. 
+*	Lack of Sexual Assault Nurse Examiners, possibly due to higher standards. 
+*	Do higher standards for nurses and other healthcare professionals present an equity concern?
+*	Licensure is an issue, but often individuals get paid more in Oregon. 
+*	Perception: "Ontario is the place where poor people go." Is this true?
+
+Generally, stakeholder meetings highlighted two primary themes. The first is the concern that upper-middle class families are leaving Malheur in large numbers for cities like Fruitland in Idaho. Annecdotally, stakeholders cite a lack of newer homes on the Oregon side of the border and the perception that the quality of life in Idaho is better as reasons for recent departures. The second theme is the difficulty the region has in attracting and retaining new families and workers. Stakeholders believe a lack of workforce housing and licensing barriers are to blame. Given these findings, the research team identified three research domain areas to explore: availability of quality housing, barriers to licensure, and perceptions about the quality of life.
+
+**Data Discovery**
+
+
+Following the identification of the primary research domains, the team embarked on a data and issue discovery process (table x). Much of the data used to identify possible barriers to opportunity in the region comes from the United States Census Bureau's American Community Survey. Given that the rural counties in Oregon and Malheur are sparsely populated, the data from the Census Bureau is only available at the county or tract level (roughly 2500 to 8000 individuals per tract). The most recent data available through the Census Beaureu is 2018 data, with new data released for the prior year in December of the following year. In addition to data from the Census Bureau, we also make use of other survey and aggregate data collected by the Bureau of Labor Statistics, the Civil Rights Data Collection, Centers for Medicaid and Medicare Services, and state public health agencies.
+Administrative data is also used in this paper to understand the state of housing in Malheur county and Payette County. The County assessors offices in each County provided 2018 tax lot data that was used to understand the age, value, and type of housing availability in each region. 

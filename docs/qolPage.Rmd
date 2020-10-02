@@ -5,5 +5,22 @@ title: "Quality of Life"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
 
-Qol Placeholder Text
+#
+#
+
+Individuals choose where they want to live based on their individual preferences for community, economic, and housing characteristics. Stakeholders believe that many who choose the Idaho region over Oregon do so because they believe that the quality of life in cities like Fruitland is better than in cities like Ontario. However, stakeholders believe that prospective households base their decisions on incomplete information about the true quality of life in each region. While we cannot measure actual preferences or beliefs without a survey, we can develop ways to think about the state of various outcomes that are important to households in the region. In this section, we develop indices to understand where the Oregon region exceeds expectations and possible areas for improvement. With these indices, we focus primarily on determinants and outcomes of economic opportunity in the region. Given their legislative and policy role, the Board has an opportunity to pursue interventions that can help improve outcomes by addressing the determinants of those outcomes. 
+
+The indices include:
+
+* State of Economic Wellbeing
+* Determinants of Economic Opportunity
+* Educational Determinants of Opportunity
+* College and Career Readiness
+* Educational Outcomes
+* Healthcare Outcomes and Quality
+* Determinants of Health
+

@@ -10,7 +10,12 @@ knitr::opts_chunk$set(echo = FALSE)
 source("../Unemployment_Data/unemploymentGraphs.R", local = knitr::knit_global())
 
 ```
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
 
+#
+#
 #
 #
 #
@@ -25,7 +30,7 @@ p
 ##### Data Source: U.S. Bureau of Labor Statistics, Local Area Unemployment Statistics (January 2010-May 2020)
 
 
-Next, we look at the median income. In 2010, Malheur County had a median individual income of $21960 (2018 dollars, all dollars values in this section are adjusted) while Payette County had a higher median income of $25507. Between 2010 and 2018, individual income decreased by 2 percent in Malheur County and increased by less than 1 percent in Payette County. Both counties saw a decrease in median household income. Household income decreased by 11 percent in Malheur ($46973 to $42478)and by 4 percent in Payette ($52270 to $50289). 
+Next, we look at the median income. In 2010, Malheur County had a median individual income of $21960 (2018 dollars, all dollars values in this section are adjusted) while Payette County had a higher median income of $25507. Between 2010 and 2018, individual income decreased by 2 percent in Malheur County and increased by less than 1 percent in Payette County. Both counties saw a decrease in median household income. Household income decreased by 11 percent in Malheur ($46973 to $42478)and by 4 percent in Payette ($52270 to $50289). Both counties have median incomes that are lower than the state median incomes. In 2018, the median household income in Oregon was $67000 and 
 
 To understand what might be driving this outcome, we disaggregate the data by tract. In the Ontario tract, individual and household income rose by approximately 22 percent. While the increase in the Ontario tract is significant, the median income itself is still lower than the county median income. In 2018, the median individual income was $19233 and the median household income was $31900, both of which are significantly lower than the county medians. The tracts just outside the city of Ontario experienced minimal increases or large decreases in median income. For example, the tract to the northeast of Ontario saw a 23 percent reduction in individual income and 22 percent in household income. It appears that those living in the more sparsely populated parts of Malheur County earn less in comparison to their counterparts near Ontario. 
 

@@ -20,6 +20,13 @@ knitr::opts_chunk$set(echo = F)
 
 <img src="https://raw.githubusercontent.com/EOBED-DSPG/EOBED-DSPG.github.io/master/Banner_Image_5000x833.jpg">
 
+<center>
+**THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
+</center>
+
+#
+#
+
 
 ### Barriers to Economic Opportunity in the Eastern Oregon Border Region
 #
@@ -34,6 +41,51 @@ knitr::opts_chunk$set(echo = F)
 #
 #
 <center>
+
+#
+#
+#
+#
+#
+
+# Introduction
+
+Attracting and retaining workers and families in rural communities is a challenge rural counties across America face. Competing urban and suburban areas often offer more economic opportunities, more attractive housing options, and improved access to services and programs in comparison to their rural counterparts. In recent years, this competition has left rural communities with a declining workforce. A declining workforce can present many challenges, from a shrinking tax base to difficulties attracting new industries and jobs. These challenges leave rural communities with few opportunities for economic growth, further deteriorating the quality of life in these areas. 
+
+In response to the As a result, rural counties are faced with a declining workforce and population, a reality that can spell trouble for rural counties as they struggle to fund services and attract new jobs and industries, making these areas increasingly less attractive to new families and to those who might still live there. Another concern that can make Rural communities typically do not offer the same access to jobs, housing, and services as their urban and suburban counterparts. As a result, they often struggle to attract and retain workers and families rural areas have seen a outward migration of rur areas offer increased access to economic opportunities, housing, and services. The lack of these Because people keep leaving rural areas, rural counties struggle. They have a hard time attracting new jobs and industries because they have a dwindling workforce and they have a hard time providing services because they have fewer residents contributing to the tax base and require coverage over a larger, more sparsely populated area. 
+
+For most rural areas, other urban areas are the major competition. However, for rural areas along state borders, individuals will often be making tradeoffs about which state to live in. This creates a sort of rural rural divide, where certain rural areas are more successful in attracting families and workers and therefore flourish and others are less successful and struggle to grow. 
+In this paper we focus on the rural-rural divide experienced in the Easter Oregon border region. 
+
+This is the case for the Eastern Oregon border region. The State of Oregon defines the Eastern Oregon border region as the area within 20 miles of Oregon's eastern border. This rural region borders the state of Idaho with larger population centers in Malheur county, including the cities of Ontario, Vale, Nyssa, and Adrian. Malheur County is one of Oregon's most impoverished counties with an unemployment rate x times higher than the state average and a poverty rate of x. The median income 
+
+#
+#
+<h3>About Data Science for the Public Good</h3>
+Rural Data Science for the Public Good is a project that supports the use of data science approaches to address issues of rural communities (defined broadly) through student summer projects and through engagement with Cooperative Extension. The project is part of a tri-state collaboration involving the University of Virginia, Oregon State University, Iowa State University, Virginia Tech, and Virginia State University. It is funded by USDA NIFA and by the Bill and Melinda Gates Foundation.
+
+The student summer projects will be focused on analysis of data provided by rural stakeholders. These 10 week projects are intended to (i) provide graduate and undergraduate students with collaborative data science research experiences in real-world settings; and (ii) provide rural stakeholders with data science analyses relevant to a specific issue of interest. For more infomration visit the DSPG Program <a href="https://biocomplexity.virginia.edu/social-decision-analytics/dspg-program">website</a>.
+
+#
+#
+<h3>The Team</h3>
+<font color="orange">Principal Investigator:</font> Stuart Reitz (Oregon State University, Professor and Director Malheur Experiment Station, Eastern Oregon Border Board Member), <a href="https://agsci.oregonstate.edu/users/stuart-reitz" target="_blank">website</a>,<a href="mailto:stuart.reitz@oregonstate.edu"> email</a>
+
+<font color="orange">Graduate Fellow/Mentor:</font> Thamanna Vasan (Oregon State University, Applied Economics PhD Candidate), <A href="https://thamannavasan.netlify.app/" target="_blank">website</a>,<a href="mailto:vasant@oregonstate.edu"> email</a>
+
+<font color="orange">Undergraduate Interns:</font> Melvin Ma (Oregon State University, Computer Science), Collin Robinson (Souther Oregon University, Computer Science)
+
+#
+#
+<h3>Acknowledgments</h3>
+We would like to thank Mark Redmond, Kim Tomkinson, Adam Brown, Peter Hall, and Ken Hart. We would also like to thank the memebers of our stakeholder group who took time out of their busy schedules to participate in stakeholder meetings. 
+
+
+#
+#
+
+<center>
 ###### Last updated: September 2020
+</center>
 
 </center>
