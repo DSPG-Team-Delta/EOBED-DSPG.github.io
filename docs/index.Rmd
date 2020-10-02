@@ -20,9 +20,8 @@ knitr::opts_chunk$set(echo = F)
 
 <img src="https://raw.githubusercontent.com/EOBED-DSPG/EOBED-DSPG.github.io/master/Banner_Image_5000x833.jpg">
 
-<center>
 **THIS IS A DRAFT. DO NOT DISTRIBUTE. DO NOT CITE WITHOUT AUTHOR'S PERMISSION**
-</center>
+
 
 #
 #
